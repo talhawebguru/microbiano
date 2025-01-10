@@ -9,7 +9,7 @@ import MissionIcon from "@/public/images/missionIcon.svg";
 const Vision = () => {
   return (
     <>
-      <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 lg:mt-16 sm:mt-6 flex flex-wrap xl:flex-nowrap lg:justify-between justify-center">
+      <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 lg:mt-16 sm:mt-6 flex flex-wrap xl:flex-nowrap lg:justify-between justify-center overflow-x-hidden">
         {/* Section 2 */}
         <motion.div
           className="lg:w-6/12 xl:w-[75%]"

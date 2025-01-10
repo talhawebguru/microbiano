@@ -33,7 +33,7 @@ const SliderHero = () => {
 
   return (
     <>
-      <div className="">
+      <div className=" overflow-hidden">
         <div className="max-w-full relative">
           <div className="z-10 ">
             <Swiper

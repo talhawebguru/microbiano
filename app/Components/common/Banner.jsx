@@ -8,7 +8,7 @@ import ZLine from "@/public/images/Vector1.svg";
 const Banner = () => {
   return (
     <>
-      <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0  xl:px-[90px] lg:px-10 px-5 sm:h-[493px] relative mt-24 flex items-center">
+      <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0  xl:px-[90px] lg:px-10 px-5 sm:h-[493px] relative mt-24 flex items-center overflow-hidden">
         <div className="flex items-center ">
           <motion.div
             className="absolute hidden lg:block"
