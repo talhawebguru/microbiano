@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import * as motion from "motion/react-client"
 import Logo from "@/public/images/logo.svg";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -13,7 +14,11 @@ const Footer = () => {
       <div className="xl:px-[90px] lg:px-10 px-5 lg:mt-[100px]  bg-[#f9f9f9] flex flex-col ">
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  2xl:max-w-[1440px] 2xl:mx-auto  gap-10 lg:pt-[90px] pt-10">
           {/* Col1 */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="ml-2">
               <Image src={Logo} alt="logo" />
             </div>
@@ -24,10 +29,14 @@ const Footer = () => {
                 Microbiological Culture Media – second edition.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Col 2 */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
             <div className="flex flex-col gap-5">
               <h3 className="text-[#1e1e1e] text-xl font-normal font-arial">
                 Quick Links
@@ -39,9 +48,14 @@ const Footer = () => {
                 <li>Contact Us</li>
               </ul>
             </div>
-          </div>
+          </motion.div>
+
           {/* Col 3 */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
             <div className="flex flex-col gap-5">
               <h3 className="text-[#1e1e1e] text-xl font-normal font-arial">
                 News Letter
@@ -62,9 +76,14 @@ const Footer = () => {
                 </form>
               </div>
             </div>
-          </div>
+          </motion.div>
+
           {/* Col 4 */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
             <div>
               <h2 className=" text-[#1e1e1e] text-xl font-normal font-arial">
                 Social Links
@@ -76,9 +95,14 @@ const Footer = () => {
                 <SocialIcons icon={<FaYoutube size={22} />} />
               </div>
             </div>
-          </div>
-          {/* Col 6 */}
-          <div>
+          </motion.div>
+
+          {/* Col 5 */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
             <div className="flex flex-col gap-5">
               <h2 className="text-[#1e1e1e] text-xl font-semibold font-secondary">
                 Accreditation
@@ -93,19 +117,23 @@ const Footer = () => {
                 <p>MOH License – Ministry of Health Certification</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/*  CopyRight Section */}
-
-        <div className="lg:mt-24 mt-5">
+        <motion.div
+          className="lg:mt-24 mt-5"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 1 }}
+        >
           <div className="w-full h-[0px] border border-neutral-light"></div>
           <div className="py-6">
             <h3 className="text-[#9f9f9f] text-base font-normal font-secondary text-center">
-              Copyright 2024 Microbiano Ltd | All Rights Reserved
+              Copyright 2025 Microbiano Ltd | All Rights Reserved
             </h3>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
