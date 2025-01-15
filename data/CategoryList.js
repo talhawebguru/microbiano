@@ -5,7 +5,7 @@ const categoryList = [
   },
   {
     id:2,
-    name: "Prepared Cultured Media Plates  ",
+    name: "Prepared Cultured Media Plates",
   },
   {
     id:3,
