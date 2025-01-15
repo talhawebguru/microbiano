@@ -10,7 +10,7 @@ export default function Home() {
     <>
         <SliderHero />
         <Card />
-        <ProductSection/>
+        {/* <ProductSection/> */}
         <AboutUsSection />
         <Vision />
         <Banner />
