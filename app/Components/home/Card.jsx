@@ -1,43 +1,33 @@
 import React from "react";
 import Image from "next/image";
 import * as motion from "motion/react-client"
-import Dog from "@/public/images/dog.png";
+import Plates from "@/public/images/plates.png";
+import Tubes from "@/public/images/tubes.png";
+import Bottles from "@/public/images/bottles.png";
+import Link from "next/link";
 
 const Card = () => {
   const cardData = [
     {
       id: 1,
-      title: "Culture Media and Microbiological",
-      image: Dog,
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      title: "Prepared Culture Media Plates",
+      image: Plates,
     },
     {
       id: 2,
-      title: "Clinical, Veterinary",
-      image: Dog,
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      title: "Prepared Culture Media Tubes",
+      image: Tubes,
     },
     {
       id: 3,
-      title: "Food, Water & Environmental",
-      image: Dog,
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-    },
-    {
-      id: 4,
-      title: "Pharmaceutical & Industrial",
-      image: Dog,
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      title: "Prepared Culture Media Bottles",
+      image: Bottles,
     },
   ];
 
   return (
     <>
-      <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 xl:px-[90px] lg:px-10 px-5 mt-[54px] mb-[145px] grid xl:grid-cols-4 sm:grid-cols-2 gap-5 overflow-hidden">
+      <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 xl:px-[90px] lg:px-10 px-5 mt-[54px] mb-[145px] grid xl:grid-cols-3 sm:grid-cols-2 gap-5 overflow-hidden">
         {cardData.map((info, id) => (
           <motion.div
             key={id}
@@ -46,6 +36,7 @@ const Card = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: id * 0.2 }}
           >
+            <Link href="/product"> 
             <div className="h-full flex xl:flex-nowrap sm:flex-wrap relative -z-10 bg-dog-food bg-cover bg-no-repeat bg-[#f5e9f0]">
               <h2 className="text-[#5f1654] text-[28px] font-normal font-arial mt-[176px] ml-4">
                 {info.title}
@@ -54,9 +45,10 @@ const Card = () => {
                 src={info.image}
                 width={256}
                 height={208}
-                className="w-64 h-52 absolute -z-10 right-0 bottom-0"
+                className="w-64 h-52 absolute -z-10 right-0 bottom-0 bg-blend-normal"
               />
             </div>
+            </Link>
           </motion.div>
         ))}
       </div>

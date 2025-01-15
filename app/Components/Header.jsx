@@ -107,7 +107,7 @@ const Header = () => {
                   </svg>
                   {aboutDropdown && (
                     <ul
-                      className={`absolute w-[290px] left-0 top-6 pt-6 z-20 ${getHeaderColor()}  rounded shadow-lg `}
+                      className={`absolute w-[290px] left-0 top-6 pt-6 z-20 ${getHeaderColor()}  rounded shadow-lg`}
                     >
                       <li className=" hover:bg-secondary hover:text-white ">
                         <Link href="/product" className="block px-3 py-2">
@@ -126,7 +126,7 @@ const Header = () => {
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
                         <Link href="#" className="block px-3 py-2">
-                          Prepared culture media bottles
+                          Prepared Culture Media Bottles
                         </Link>
                       </li>
                     </ul>
