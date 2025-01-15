@@ -154,7 +154,7 @@ const productData = [
   {
     id: 1,
     name: "Anaerobic Isolation Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0105",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -164,7 +164,7 @@ const productData = [
   {
     id: 2,
     name: "Azide Sheep Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0109",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -174,7 +174,7 @@ const productData = [
   {
     id: 3,
     name: "Bacillus Cereus Selective Agar (MYP)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0120",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -184,7 +184,7 @@ const productData = [
   {
     id: 4,
     name: "Baird Parker Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0123",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -194,7 +194,7 @@ const productData = [
   {
     id: 5,
     name: "BCYE GVPC Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0135",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -204,7 +204,7 @@ const productData = [
   {
     id: 6,
     name: "BCYE Cysteine Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0136",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -214,7 +214,7 @@ const productData = [
   {
     id: 7,
     name: "BCYE Agar without Cysteine",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0137",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -224,7 +224,7 @@ const productData = [
   {
     id: 8,
     name: "Brain Heart Infusion (BHI) Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0141",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -234,7 +234,7 @@ const productData = [
   {
     id: 9,
     name: "Bordet Gengou Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0145",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -244,7 +244,7 @@ const productData = [
   {
     id: 10,
     name: "Brilliant Green Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0147",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -254,7 +254,7 @@ const productData = [
   {
     id: 11,
     name: "Brilliant Green Bile Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0148",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -264,7 +264,7 @@ const productData = [
   {
     id: 12,
     name: "Bile Esculin Azide Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0149",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -274,7 +274,7 @@ const productData = [
   {
     id: 13,
     name: "Bile Esculin Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0150",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -284,7 +284,7 @@ const productData = [
   {
     id: 14,
     name: "Brucella Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0152",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -294,7 +294,7 @@ const productData = [
   {
     id: 15,
     name: "Campy 5 Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0170",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -304,7 +304,7 @@ const productData = [
   {
     id: 16,
     name: "Campy Blood Free Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0171",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -314,7 +314,7 @@ const productData = [
   {
     id: 17,
     name: "Campy Laked Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0172",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -324,7 +324,7 @@ const productData = [
   {
     id: 18,
     name: "Cetrimide agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0180",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -334,7 +334,7 @@ const productData = [
   {
     id: 19,
     name: "Chocolate Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0185",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -344,7 +344,7 @@ const productData = [
   {
     id: 20,
     name: "Chocolate Bacitracin Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0186",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -354,7 +354,7 @@ const productData = [
   {
     id: 21,
     name: "Clostridium Difficile Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0189",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -364,7 +364,7 @@ const productData = [
   {
     id: 22,
     name: "CLED Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0192",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -374,7 +374,7 @@ const productData = [
   {
     id: 23,
     name: "Columbia CNA Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0195",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -384,7 +384,7 @@ const productData = [
   {
     id: 24,
     name: "Corn Meal Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0196",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -394,7 +394,7 @@ const productData = [
   {
     id: 25,
     name: "Chrom Acinetobacter with MDR",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0210",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -404,7 +404,7 @@ const productData = [
   {
     id: 26,
     name: "Chromo Candida Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0215",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -414,7 +414,7 @@ const productData = [
   {
     id: 27,
     name: "Chrom Candida Plus",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0216",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -424,7 +424,7 @@ const productData = [
   {
     id: 28,
     name: "Chrom Campylobacter",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0220",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -434,7 +434,7 @@ const productData = [
   {
     id: 29,
     name: "Chrom ESBL",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0225",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -444,7 +444,7 @@ const productData = [
   {
     id: 30,
     name: "Chrom KPC",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0235",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -454,7 +454,7 @@ const productData = [
   {
     id: 31,
     name: "Chrom MRSA",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0245",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -464,7 +464,7 @@ const productData = [
   {
     id: 32,
     name: "Chrom mSuperCARBA",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0247",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -474,7 +474,7 @@ const productData = [
   {
     id: 33,
     name: "Chrom O157",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0256",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -484,7 +484,7 @@ const productData = [
   {
     id: 34,
     name: "Chrom Salmonella Plus",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0265",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -494,7 +494,7 @@ const productData = [
   {
     id: 35,
     name: "Chrom staph aureus",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0270",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -504,7 +504,7 @@ const productData = [
   {
     id: 36,
     name: "Chrom Strep B",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0275",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -514,7 +514,7 @@ const productData = [
   {
     id: 37,
     name: "Chrom UTI",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0280",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -524,7 +524,7 @@ const productData = [
   {
     id: 38,
     name: "Chrom VRE",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0285",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -534,7 +534,7 @@ const productData = [
   {
     id: 39,
     name: "Chrom Y enterocolitica",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0288",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -544,7 +544,7 @@ const productData = [
   {
     id: 40,
     name: "DCLS Agar (Desoxycholate, Citrate, Lactose, Sucrose)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0290",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -554,7 +554,7 @@ const productData = [
   {
     id: 41,
     name: "Desoxycholate Citrate Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0291",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -564,7 +564,7 @@ const productData = [
   {
     id: 42,
     name: "DNASE Test Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0315",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -574,7 +574,7 @@ const productData = [
   {
     id: 43,
     name: "Dermatophyte Test Medium",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0319",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -584,7 +584,7 @@ const productData = [
   {
     id: 44,
     name: "Dichloran Rose Bengal Chloramphenicol ( DRBC) Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0325",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -594,7 +594,7 @@ const productData = [
   {
     id: 45,
     name: "DG18 agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0330",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -604,7 +604,7 @@ const productData = [
   {
     id: 46,
     name: "Diagnostic Sensitivity Test Agar (DST Agar)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0331",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -614,7 +614,7 @@ const productData = [
   {
     id: 47,
     name: "Eosin Methylene Blue Agar (EMB)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0375",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -624,7 +624,7 @@ const productData = [
   {
     id: 48,
     name: "Endo Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0378",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -634,7 +634,7 @@ const productData = [
   {
     id: 49,
     name: "G. Vaginalis Sel. Medium (V Agar)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0422",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -644,7 +644,7 @@ const productData = [
   {
     id: 50,
     name: "Haemophilus Test Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0450",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -654,7 +654,7 @@ const productData = [
   {
     id: 51,
     name: "Hektoen Enteric Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0451",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -664,7 +664,7 @@ const productData = [
   {
     id: 52,
     name: "Helicobacter Pylori Selective Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0455",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -674,7 +674,7 @@ const productData = [
   {
     id: 53,
     name: "Horse Blood agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0465",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -684,7 +684,7 @@ const productData = [
   {
     id: 54,
     name: "Hoyle Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0467",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -694,7 +694,7 @@ const productData = [
   {
     id: 55,
     name: "LB agar with Ampicillin",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0510",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -704,7 +704,7 @@ const productData = [
   {
     id: 56,
     name: "LB agar with Kanamycin",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0511",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -714,7 +714,7 @@ const productData = [
   {
     id: 57,
     name: "Listeria Selective Agar (Oxford)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0515",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -724,7 +724,7 @@ const productData = [
   {
     id: 58,
     name: "Malt Extract Agar with Chloramphenicol",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0530",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -734,7 +734,7 @@ const productData = [
   {
     id: 59,
     name: "Martin Lewis Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0535",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -744,7 +744,7 @@ const productData = [
   {
     id: 60,
     name: "MacConkey Agar w/o Crystal Violet",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0540",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -754,7 +754,7 @@ const productData = [
   {
     id: 61,
     name: "MacConkey Agar with Crystal Violet",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0541",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -764,7 +764,7 @@ const productData = [
   {
     id: 62,
     name: "MacConkey agar without salt",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0542",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -774,7 +774,7 @@ const productData = [
   {
     id: 63,
     name: "MacConkey Agar with Sorbitol",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0543",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -784,7 +784,7 @@ const productData = [
   {
     id: 64,
     name: "Mannitol Salt Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0547",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -794,7 +794,7 @@ const productData = [
   {
     id: 65,
     name: "m-FC Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0550",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -804,7 +804,7 @@ const productData = [
   {
     id: 66,
     name: "m-Endo Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0556",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -814,7 +814,7 @@ const productData = [
   {
     id: 67,
     name: "MILK Plate Count Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0560",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -824,7 +824,7 @@ const productData = [
   {
     id: 68,
     name: "MRS Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0565",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -834,7 +834,7 @@ const productData = [
   {
     id: 69,
     name: "Mueller Hinton Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0570",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -844,7 +844,7 @@ const productData = [
   {
     id: 70,
     name: "Mueller Hinton Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0571",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -854,7 +854,7 @@ const productData = [
   {
     id: 71,
     name: "Mueller Hinton Chocolate Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0572",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -864,7 +864,7 @@ const productData = [
   {
     id: 72,
     name: "Mycological Agar (deep filled)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0580",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -874,7 +874,7 @@ const productData = [
   {
     id: 73,
     name: "Neomycin Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0610",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -884,7 +884,7 @@ const productData = [
   {
     id: 74,
     name: "Nutrient Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0615",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -894,7 +894,7 @@ const productData = [
   {
     id: 75,
     name: "Non nutrient agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0617",
     packSize: "10 x 90 mm Plates",
     shelfLife: "180 Days",
@@ -904,7 +904,7 @@ const productData = [
   {
     id: 76,
     name: "Oxytetra Glucose Yeast Agar (OGYE Agar)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0625",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -914,7 +914,7 @@ const productData = [
   {
     id: 77,
     name: "Palcam Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0630",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -924,7 +924,7 @@ const productData = [
   {
     id: 78,
     name: "Plate Count Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0650",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -934,7 +934,7 @@ const productData = [
   {
     id: 79,
     name: "Potato Dextrose Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0655",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -944,7 +944,7 @@ const productData = [
   {
     id: 80,
     name: "Pseudomonas Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0660",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -954,7 +954,7 @@ const productData = [
   {
     id: 81,
     name: "Pseudomonas Cepacia Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0663",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -964,7 +964,7 @@ const productData = [
   {
     id: 82,
     name: "R2A Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0695",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -974,7 +974,7 @@ const productData = [
   {
     id: 83,
     name: "Rose Bengal Chloramphenicol Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0699",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -984,7 +984,7 @@ const productData = [
   {
     id: 84,
     name: "Sabouraud Dextrose Agar (Deep filled)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0720",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -994,7 +994,7 @@ const productData = [
   {
     id: 85,
     name: "Sabouraud Dextrose Agar with Chloramphenicol",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0721",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1004,7 +1004,7 @@ const productData = [
   {
     id: 86,
     name: "Sabouraud Dextrose with Chloramphenicol & Gentamicin",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0722",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1014,7 +1014,7 @@ const productData = [
   {
     id: 87,
     name: "Sabouraud Dextrose with Chloramphenicol & Cycloheximide",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0723",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1024,7 +1024,7 @@ const productData = [
   {
     id: 88,
     name: "Salmonella Shigella Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0725",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1034,7 +1034,7 @@ const productData = [
   {
     id: 89,
     name: "Schaedler K-V Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0730",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1044,7 +1044,7 @@ const productData = [
   {
     id: 90,
     name: "Sheep Blood Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0750",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1054,7 +1054,7 @@ const productData = [
   {
     id: 91,
     name: "Slanetz and Bartley Medium",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0753",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1064,7 +1064,7 @@ const productData = [
   {
     id: 92,
     name: "Thiosulfate Citrate Bile Salts Sucrose Agar (TCBS)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0780",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1074,7 +1074,7 @@ const productData = [
   {
     id: 93,
     name: "Tryptic Soy Agar (Soyabean- Casein digest agar)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0783",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1084,7 +1084,7 @@ const productData = [
   {
     id: 94,
     name: "Tryptic Soy Agar with Cycloheximide",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0785",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1094,7 +1094,7 @@ const productData = [
   {
     id: 95,
     name: "Perfrigens Agar base (TSC)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0786",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1104,7 +1104,7 @@ const productData = [
   {
     id: 96,
     name: "Violet Red Bile Glucose Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0820",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1114,7 +1114,7 @@ const productData = [
   {
     id: 97,
     name: "Violet Red Bile Lactose Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0821",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1124,7 +1124,7 @@ const productData = [
   {
     id: 98,
     name: "VRE Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0825",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1134,7 +1134,7 @@ const productData = [
   {
     id: 99,
     name: "Wort Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0850",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1144,7 +1144,7 @@ const productData = [
   {
     id: 100,
     name: "Xylose Lysine Desoxycholate Agar (XLD)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0890",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1154,7 +1154,7 @@ const productData = [
   {
     id: 101,
     name: "Yeast Extract Glucose Chloramphenicol Agar",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0910",
     packSize: "10 x 90 mm Plates",
     shelfLife: "90 Days",
@@ -1164,7 +1164,7 @@ const productData = [
   {
     id: 102,
     name: "Yersinia Selective Agar (CIN Agar)",
-    category: "Prepared Cultured Media Plates",
+    category: "Prepared plates media 90 MM",
     productCode: "MBN0915",
     packSize: "10 x 90 mm Plates",
     shelfLife: "60 Days",
@@ -1174,7 +1174,7 @@ const productData = [
   {
     id: 103,
     name: "Columbia CNA Blood Agar / MacConkey with Crystal Violet",
-    category: "Biplates",
+    category: "Prepared bioplates media 90 MM",
     productCode: "MBN0950",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1184,7 +1184,7 @@ const productData = [
   {
     id: 104,
     name: "Sheep Blood Agar / Chocolate Agar",
-    category: "Biplates",
+    category: "Prepared bioplates media 90 MM",
     productCode: "MBN0955",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1194,7 +1194,7 @@ const productData = [
   {
     id: 105,
     name: "Sheep Blood Agar / CLED Agar",
-    category: "Biplates",
+    category: "Prepared bioplates media 90 MM",
     productCode: "MBN0960",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1204,7 +1204,7 @@ const productData = [
   {
     id: 106,
     name: "Sheep Blood Agar / MacConkey with Crystal Violet",
-    category: "Biplates",
+    category: "Prepared bioplates media 90 MM",
     productCode: "MBN0970",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1214,7 +1214,7 @@ const productData = [
   {
     id: 107,
     name: "Sheep Blood Agar / MacConkey without Crystal Violet",
-    category: "Biplates",
+    category: "Prepared bioplates media 90 MM",
     productCode: "MBN0980",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1224,7 +1224,7 @@ const productData = [
   {
     id: 108,
     name: "Haemophilus Test Agar",
-    category: "150plates",
+    category: "Prepared plates media 150 MM",
     productCode: "MBN1001",
     packSize: "5 x 150 mm plates",
     shelfLife: "60 Days",
@@ -1234,7 +1234,7 @@ const productData = [
   {
     id: 109,
     name: "Muller Hinton Agar",
-    category: "150plates",
+    category: "Prepared plates media 150 MM",
     productCode: "MBN1010",
     packSize: "5 x 150 mm plates",
     shelfLife: "90 Days",
@@ -1244,7 +1244,7 @@ const productData = [
   {
     id: 110,
     name: "Mueller Hinton Blood Agar",
-    category: "150plates",
+    category: "Prepared plates media 150 MM",
     productCode: "MBN1015",
     packSize: "5 x 150 mm plates",
     shelfLife: "60 Days",
@@ -1254,7 +1254,7 @@ const productData = [
   {
     id: 111,
     name: "Sheep Blood Agar",
-    category: "150plates",
+    category: "Prepared plates media 150 MM",
     productCode: "MBN1050",
     packSize: "5 x 150 mm plates",
     shelfLife: "60 Days",
@@ -1264,7 +1264,7 @@ const productData = [
   {
     id: 112,
     name: "Alkaline Peptone Water 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2101",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1274,7 +1274,7 @@ const productData = [
   {
     id: 113,
     name: "Alkaline Peptone Water 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2102",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1284,7 +1284,7 @@ const productData = [
   {
     id: 114,
     name: "Azide Dextrose Broth Single strength 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2107",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1294,7 +1294,7 @@ const productData = [
   {
     id: 115,
     name: "Azide Dextrose Broth Double strength 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2108",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1304,7 +1304,7 @@ const productData = [
   {
     id: 116,
     name: "Brain Heart Infusion (BHI) Broth 5 ML",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2125",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1314,7 +1314,7 @@ const productData = [
   {
     id: 117,
     name: "Brain Heart Infusion Agar Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2126",
     packSize: "10 Tubes",
     shelfLife: "120 Days",
@@ -1324,7 +1324,7 @@ const productData = [
   {
     id: 118,
     name: "Bile aesculin agar slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2130",
     packSize: "10 Tubes",
     shelfLife: "150 Days",
@@ -1334,7 +1334,7 @@ const productData = [
   {
     id: 119,
     name: "Brilliant Green Bile Broth (2%) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2135",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1344,7 +1344,7 @@ const productData = [
   {
     id: 120,
     name: "Buffered Peptone Water 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2140",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1354,7 +1354,7 @@ const productData = [
   {
     id: 121,
     name: "Campylobacter enrichment broth (Bolton) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2160",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "90 Days",
@@ -1364,7 +1364,7 @@ const productData = [
   {
     id: 122,
     name: "Cooked Meat Broth 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2161",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1374,7 +1374,7 @@ const productData = [
   {
     id: 123,
     name: "D/E Neutralizing Broth 9 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2180",
     packSize: "9 ml x 10 Tubes",
     shelfLife: "90 Days",
@@ -1384,7 +1384,7 @@ const productData = [
   {
     id: 124,
     name: "E.C broth 10ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2210",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "90 Days",
@@ -1394,7 +1394,7 @@ const productData = [
   {
     id: 125,
     name: "Fraser Broth 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2225",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "90 Days",
@@ -1404,7 +1404,7 @@ const productData = [
   {
     id: 126,
     name: "Gram negative broth 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2240",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1414,7 +1414,7 @@ const productData = [
   {
     id: 127,
     name: "Kligler Iron Agar Slant",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2260",
     packSize: "10 Tubes",
     shelfLife: "120 Days",
@@ -1424,7 +1424,7 @@ const productData = [
   {
     id: 128,
     name: "Lauryl Sulfate Broth (Lauryl tryptose broth) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2280",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1434,7 +1434,7 @@ const productData = [
   {
     id: 129,
     name: "Lactose broth 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2281",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1444,7 +1444,7 @@ const productData = [
   {
     id: 130,
     name: "Lactose Gelatin Medium 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2282",
     packSize: "10 Tubes",
     shelfLife: "90 Days",
@@ -1454,7 +1454,7 @@ const productData = [
   {
     id: 131,
     name: "Lim broth 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2290",
     packSize: "10 tubes",
     shelfLife: "90 Days",
@@ -1464,7 +1464,7 @@ const productData = [
   {
     id: 132,
     name: "Loeffler Medium Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2295",
     packSize: "10 Tubes",
     shelfLife: "120 Days",
@@ -1474,7 +1474,7 @@ const productData = [
   {
     id: 133,
     name: "Luria Broth (Miller´s LB Broth) 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2305",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1484,7 +1484,7 @@ const productData = [
   {
     id: 134,
     name: "Lysine Iron Agar Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2310",
     packSize: "10 Tubes",
     shelfLife: "150 Days",
@@ -1494,7 +1494,7 @@ const productData = [
   {
     id: 135,
     name: "Malt extract broth 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2330",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1504,7 +1504,7 @@ const productData = [
   {
     id: 136,
     name: "Maximum Recovery Medium Broth 9 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2334",
     packSize: "9 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1514,7 +1514,7 @@ const productData = [
   {
     id: 137,
     name: "Mannitol Selenite Broth 8 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2339",
     packSize: "8 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1524,7 +1524,7 @@ const productData = [
   {
     id: 138,
     name: "MacConkey Broth purple (single strength) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2345",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1534,7 +1534,7 @@ const productData = [
   {
     id: 139,
     name: "MacConkey Broth purple (double strength) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2346",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1544,7 +1544,7 @@ const productData = [
   {
     id: 140,
     name: "Motility Test Medium 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2360",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1554,7 +1554,7 @@ const productData = [
   {
     id: 141,
     name: "MR-VP Test Medium 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2366",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1564,7 +1564,7 @@ const productData = [
   {
     id: 142,
     name: "Mueller Hinton Broth 9 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2270",
     packSize: "9 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1574,7 +1574,7 @@ const productData = [
   {
     id: 143,
     name: "Mueller-Kanffmann Tetrathonate Novobiocin Broth (MkTTn) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2375",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "60 Days",
@@ -1584,7 +1584,7 @@ const productData = [
   {
     id: 144,
     name: "Mycological Agar Slant",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2380",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1594,7 +1594,7 @@ const productData = [
   {
     id: 145,
     name: "1/500 Nutrient broth 9 ML",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2400",
     packSize: "9 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1604,7 +1604,7 @@ const productData = [
   {
     id: 146,
     name: "Nutrient Agar Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2405",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1614,7 +1614,7 @@ const productData = [
   {
     id: 147,
     name: "Nutrient Broth 5 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2410",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1624,7 +1624,7 @@ const productData = [
   {
     id: 148,
     name: "Nutrient Broth 9 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2411",
     packSize: "9 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1634,7 +1634,7 @@ const productData = [
   {
     id: 149,
     name: "Peptone water 5ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2450",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1644,7 +1644,7 @@ const productData = [
   {
     id: 150,
     name: "Listeria Enrichment Broth UVM II Secondary 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2461",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1654,7 +1654,7 @@ const productData = [
   {
     id: 151,
     name: "Phosphate buffered saline (PBS) 10 ML",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2490",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1664,7 +1664,7 @@ const productData = [
   {
     id: 152,
     name: "Rappaport Vassiliadis Soy Broth (RVS broth) 10 ml",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2510",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1674,7 +1674,7 @@ const productData = [
   {
     id: 153,
     name: "Rappaport Vassiliadis Broth (RV)",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2512",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1684,7 +1684,7 @@ const productData = [
   {
     id: 154,
     name: "Ringer solutions ¼ strength",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2521",
     packSize: "9 ml x 10 Tubes",
     shelfLife: "270 Days",
@@ -1694,7 +1694,7 @@ const productData = [
   {
     id: 155,
     name: "Saline normal",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2540",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "270 Days",
@@ -1704,7 +1704,7 @@ const productData = [
   {
     id: 156,
     name: "Salt broth 6.5%",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2541",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "270 Days",
@@ -1714,7 +1714,7 @@ const productData = [
   {
     id: 157,
     name: "Sabouraud Dextrose Agar Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2550",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1724,7 +1724,7 @@ const productData = [
   {
     id: 158,
     name: "Sabouraud Dextrose Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2555",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1734,7 +1734,7 @@ const productData = [
   {
     id: 159,
     name: "Salmonella Shigella Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2557",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1744,7 +1744,7 @@ const productData = [
   {
     id: 160,
     name: "SCDLP Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2560",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "60 Days",
@@ -1754,7 +1754,7 @@ const productData = [
   {
     id: 161,
     name: "Selenite Cystine Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2570",
     packSize: "8 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1764,7 +1764,7 @@ const productData = [
   {
     id: 162,
     name: "Selenite F Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2571",
     packSize: "8 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1774,7 +1774,7 @@ const productData = [
   {
     id: 163,
     name: "Simmons Citrate Slant",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2577",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1784,7 +1784,7 @@ const productData = [
   {
     id: 164,
     name: "SIM Medium",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2578",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1794,7 +1794,7 @@ const productData = [
   {
     id: 165,
     name: "Tetrathionate broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2600",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "90 Days",
@@ -1804,7 +1804,7 @@ const productData = [
   {
     id: 166,
     name: "Thioglycollate broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2610",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "150 Days",
@@ -1814,7 +1814,7 @@ const productData = [
   {
     id: 167,
     name: "Triple Sugar Iron Agar Slant",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2615",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1824,7 +1824,7 @@ const productData = [
   {
     id: 168,
     name: "Tryptone Soy Agar Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2618",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1834,7 +1834,7 @@ const productData = [
   {
     id: 169,
     name: "Trypticase Soy Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2619",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1844,7 +1844,7 @@ const productData = [
   {
     id: 170,
     name: "Trypticase Soy Broth",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2620",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1854,7 +1854,7 @@ const productData = [
   {
     id: 171,
     name: "Tryptone Water",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2621",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "180 Days",
@@ -1864,7 +1864,7 @@ const productData = [
   {
     id: 172,
     name: "Trypticasein Soy Broth with Novobiocine (mTSB)",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2625",
     packSize: "10 ml x 10 Tubes",
     shelfLife: "120 Days",
@@ -1874,7 +1874,7 @@ const productData = [
   {
     id: 173,
     name: "Urea Agar Slants",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2650",
     packSize: "10 Tubes",
     shelfLife: "180 Days",
@@ -1884,7 +1884,7 @@ const productData = [
   {
     id: 174,
     name: "Water sterile",
-    category: "Prepared Culture Media Tube",
+    category: "Prepared tube media",
     productCode: "MBN2680",
     packSize: "5 ml x 10 Tubes",
     shelfLife: "365 Days",
@@ -1894,7 +1894,7 @@ const productData = [
   {
     id: 175,
     name: "Alkaline Peptone Water",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN3100",
     packSize: "100 ml bot",
     shelfLife: "150 Days",
@@ -1904,7 +1904,7 @@ const productData = [
   {
     id: 176,
     name: "Plate Count Agar",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN3140",
     packSize: "100 ml bot",
     shelfLife: "90 Days",
@@ -1914,7 +1914,7 @@ const productData = [
   {
     id: 177,
     name: "Violet Red Bile Lactose Agar (VRBLA)",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN3290",
     packSize: "100 ml bot",
     shelfLife: "90 Days",
@@ -1924,7 +1924,7 @@ const productData = [
   {
     id: 178,
     name: "Alkaline Peptone Water",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4100",
     packSize: "250 ml bot",
     shelfLife: "150 Days",
@@ -1934,7 +1934,7 @@ const productData = [
   {
     id: 179,
     name: "EE Broth (Buffered brilliant bile broth)",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4110",
     packSize: "250 ml bot",
     shelfLife: "120 Days",
@@ -1944,7 +1944,7 @@ const productData = [
   {
     id: 180,
     name: "Half Fraser Broth",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4130",
     packSize: "250 ml bot",
     shelfLife: "150 Days",
@@ -1954,7 +1954,7 @@ const productData = [
   {
     id: 181,
     name: "Listeria Enrichment Broth UVM I Primary",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4150",
     packSize: "250 ml bot",
     shelfLife: "120 Days",
@@ -1964,7 +1964,7 @@ const productData = [
   {
     id: 182,
     name: "Orange serum agar",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4180",
     packSize: "250 ml bot",
     shelfLife: "90 Days",
@@ -1974,7 +1974,7 @@ const productData = [
   {
     id: 183,
     name: "One Broth Salmonella",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4181",
     packSize: "250 ml bot",
     shelfLife: "90 Days",
@@ -1984,7 +1984,7 @@ const productData = [
   {
     id: 184,
     name: "Plate Count Agar",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4210",
     packSize: "250 ml bot",
     shelfLife: "90 Days",
@@ -1994,7 +1994,7 @@ const productData = [
   {
     id: 185,
     name: "Violet Red Bile Lactose Agar (VRBLA)",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN4260",
     packSize: "250 ml bot",
     shelfLife: "90 Days",
@@ -2004,7 +2004,7 @@ const productData = [
   {
     id: 186,
     name: "Alkaline Peptone Water",
-    category: "Prepared culture media bottles",
+    category: "Prepared media in Bottles",
     productCode: "MBN5100",
     packSize: "500 ml bot",
     shelfLife: "150 Days",

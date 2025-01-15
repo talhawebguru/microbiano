@@ -129,21 +129,6 @@ const Header = () => {
                           Prepared culture media bottles
                         </Link>
                       </li>
-                      <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2">
-                          CLinical & Veterinary Products
-                        </Link>
-                      </li>
-                      <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2">
-                          Food, Water & Environmental
-                        </Link>
-                      </li>
-                      <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2">
-                          Pharma & Industrial
-                        </Link>
-                      </li>
                     </ul>
                   )}
                 </li>

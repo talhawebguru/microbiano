@@ -5,27 +5,23 @@ const categoryList = [
   },
   {
     id:2,
-    name: "Prepared Cultured Media Plates",
+    name: "Prepared plates media 90 MM",
   },
   {
     id:3,
-    name: "Prepared Culture Media Tube",
+    name: "Prepared plates media 150 MM",
   },
   {
     id:4,
-    name: "Prepared culture media bottles",
+    name: "Prepared bioplates media 90 MM",
   },
   {
     id:5,
-    name: "Clinical & Veterinary Products",
+    name: "Prepared tube media",
   },
   {
     id:6,
-    name: "Food, Water & Environmental",
-  },
-  {
-    id:7,
-    name: "Pharma & Industrial",
+    name: "Prepared media in Bottles",
   },
 ];
 

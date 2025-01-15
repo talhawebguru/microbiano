@@ -49,6 +49,13 @@ const ProductComplete = () => {
               selectedCategory={selectedCategory}
             />
           </div>
+          <div className="flex justify-center items-center mt-10">
+            <a href="/Microbiano.pdf" target="_blank" download>
+              <button className="bg-secondary px-3 py-4 text-white rounded-md">
+                Download Catalog PDF
+              </button>
+            </a>
+          </div>
           {/* <div className="flex gap-2 justify-center lg:mt-16 mt-5 lg:mb-20 mb-5 ">
             <div className="w-10 h-10 bg-white shadow flex justify-center items-center rotate-90">
               <Image src={ArrowDown} />

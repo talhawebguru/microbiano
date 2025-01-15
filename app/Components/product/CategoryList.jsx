@@ -28,7 +28,7 @@ const CategoryList = ({ onCategorySelect, selectedCategory }) => {
               ></div>
             </div>
             <div>
-              <h2 className="text-divi-gray-300 text-base font-normal font-primary leading-normal">
+              <h2 className="text-divi-gray-300 text-base font-normal font-primary leading-normal uppercase">
                 {info.name}
               </h2>
             </div>
