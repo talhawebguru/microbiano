@@ -1,21 +1,20 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation"; // Updated import
 import Image from "next/image";
 import ArrowDown from "@/public/images/arrow-down.svg";
 import CategoryList from "./CategoryList";
 import ProductData from "./ProductData";
 
 const ProductComplete = () => {
-  const searchParams = useSearchParams(); // Using useSearchParams for query parameters
-  const category = searchParams.get("category"); // Get the 'category' query parameter
   const [selectedCategory, setSelectedCategory] = useState("All Products");
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get("category");
     if (category) {
       setSelectedCategory(category);
     }
-  }, [category]);
+  }, []); // Runs only on the client side after the initial render
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
