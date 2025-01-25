@@ -19,7 +19,7 @@ const Banner = () => {
             <Image src={BannerImg} alt="Banner Image" className=" mt-5 " />
           </motion.div>
           <motion.div
-            className="w-full bg-secondary mt-8 p-3"
+            className="w-full bg-[#ecf4e8] mt-8 p-3"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -30,7 +30,7 @@ const Banner = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                <h2 className="2xl:w-[95%] xl:w-[90%]  text-white text-[42px] font-normal font-arial xs:w-[90%]">
+                <h2 className="2xl:w-[95%] xl:w-[90%]  text-secondary text-[42px] font-normal font-arial xs:w-[90%]">
                   Save Up to 10% on Quality Microbiological Products
                 </h2>
               </motion.div>
@@ -46,7 +46,7 @@ const Banner = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.8 }}
               >
-                <p className="md:w-[79%] mt-2 text-white text-base font-normal font-secondary leading-normal">
+                <p className="md:w-[79%] mt-2 text-black text-base font-normal font-secondary leading-normal">
                   Take advantage of up to 10% off on our top-tier
                   microbiological products and enhance your laboratory's
                   efficiency. Order now to secure your discount and advance your
@@ -58,7 +58,7 @@ const Banner = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 1 }}
               >
-                <button className="text-secondary  text-base font-normal font-arial w-[134px] h-12 bg-white mt-7">
+                <button className="bg-secondary  text-base font-normal font-arial w-[134px] h-12 text-white mt-7">
                   Shop Now
                 </button>
               </motion.div>

@@ -44,12 +44,12 @@ const SliderHero = () => {
               onSlideChange={handleSlideChange}
               autoplay
             >
-              <SwiperSlide className="bg-[#f5e9f0]">
+              <SwiperSlide className="bg-primary-new/20">
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
-                  className="xl:px-[90px] lg:px-10 px-5 bg-[#f5e9f0]"
+                  className="xl:px-[90px] lg:px-10 px-5 bg-primary-new/20"
                 >
                   <div className="2xl:max-w-[1440px] 2xl:mx-auto flex flex-wrap lg:flex-nowrap ">
                     <div className="2xl:w-[60%] md:w-[80%] lg:w-[85%] lg:mt-24 mt-8 ">

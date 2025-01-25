@@ -17,7 +17,7 @@ const Header = () => {
   const pathname = usePathname();
 
   const getHeaderColor = () => {
-    if (pathname === "/") return "bg-[#f5e9f0]";
+    if (pathname === "/") return "bg-primary-new/30";
     return "bg-white";
   };
 

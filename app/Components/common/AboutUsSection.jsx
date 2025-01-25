@@ -7,7 +7,7 @@ import Vector from "@/public/images/Vector1.svg";
 const AboutUsSection = () => {
   return (
     <>
-      <div className="bg-[#f5e9f0]/80  2xl:px-0  xl:px-[90px] lg:px-10 px-5 lg:h-[568px] xl:mt-[182px] sm:mt-[50px] overflow-hidden">
+      <div className="bg-primary-new/30  2xl:px-0  xl:px-[90px] lg:px-10 px-5 lg:h-[568px] xl:mt-[182px] sm:mt-[50px] overflow-hidden">
         <div className="2xl:max-w-[1440px] 2xl:mx-auto flex sm:flex-wrap lg:flex-nowrap sm:justify-center lg:justify-normal gap-[93px] 2xl:gap-[350px]">
           <motion.div
             className="lg:relative lg:-top-9 sm:mt-5 lg:mt-0  xs:hidden"

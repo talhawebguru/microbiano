@@ -12,16 +12,19 @@ const Card = () => {
       id: 1,
       title: "Prepared Culture Media Plates",
       image: Plates,
+      category: "Prepared plates media 90 MM",
     },
     {
       id: 2,
       title: "Prepared Culture Media Tubes",
       image: Tubes,
+      category: "Prepared tube media",
     },
     {
       id: 3,
       title: "Prepared Culture Media Bottles",
       image: Bottles,
+      category: "Prepared media in Bottles",
     },
   ];
 
@@ -33,21 +36,21 @@ const Card = () => {
             key={id}
             className="mt-10 lg:mt-0 xs:w-[100%]"
             initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: id * 0.2 }}
           >
-            <Link href="/product"> 
-            <div className="h-full flex xl:flex-nowrap sm:flex-wrap relative -z-10 bg-dog-food bg-cover bg-no-repeat bg-[#f5e9f0]">
-              <h2 className="text-[#5f1654] text-[28px] font-normal font-arial mt-[176px] ml-4">
-                {info.title}
-              </h2>
-              <Image
-                src={info.image}
-                width={256}
-                height={208}
-                className="w-64 h-52 absolute -z-10 right-0 bottom-0 bg-blend-normal"
-              />
-            </div>
+            <Link href={`/product?category=${encodeURIComponent(info.category)}`}>
+              <div className="h-full flex xl:flex-nowrap sm:flex-wrap relative -z-10 bg-dog-food bg-cover bg-no-repeat bg-primary-new/40">
+                <h2 className="text-secondary text-[28px] pb-2 font-normal font-arial mt-[176px] ml-4">
+                  {info.title}
+                </h2>
+                <Image
+                  src={info.image}
+                  width={256}
+                  height={208}
+                  className="w-64 h-52 absolute -z-10 right-0 bottom-0 bg-blend-normal"
+                />
+              </div>
             </Link>
           </motion.div>
         ))}

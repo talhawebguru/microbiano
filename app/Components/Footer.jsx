@@ -70,7 +70,7 @@ const Footer = () => {
                     className="w-full h-12 px-[22px] py-3.5 bg-white shadow justify-start items-start gap-2.5 inline-flex text-[#9d9996] text-[13px] font-normal font-secondary leading-tight"
                     placeholder="Enter your Email"
                   />
-                  <button className="w-[134px] h-12 bg-[#9e1f66] text-white text-base font-normal font-arial ml-2">
+                  <button className="w-[134px] h-12 bg-secondary text-white text-base font-normal font-arial ml-2">
                     Shop Now
                   </button>
                 </form>
@@ -125,7 +125,7 @@ const Footer = () => {
           className="lg:mt-24 mt-5"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
         >
           <div className="w-full h-[0px] border border-neutral-light"></div>
           <div className="py-6">
