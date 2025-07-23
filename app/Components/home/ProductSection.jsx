@@ -45,8 +45,6 @@ const ProductSection = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <ProductData
-            initialLimit={8}
-            mobileLimit={4}
             selectedCategory="All Products"
             searchTerm=""
             showCategoryContent={false}

@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import productData from "@/data/products";
 import CategoryContent from "./CategoryContent";
 
-const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching, showCategoryContent = true}) => {
+const ProductData = ({selectedCategory, searchTerm, isSearching, showCategoryContent = true}) => {
 
   // Filter products based on category and search term
   const filteredProducts = productData.filter((product) => {
@@ -19,10 +19,8 @@ const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching, s
     return matchesCategory && matchesSearch;
   });
 
-  // Apply limit for home page display
-  const displayedProducts = initialLimit 
-    ? filteredProducts.slice(0, initialLimit)
-    : filteredProducts;
+  // Show all filtered products
+  const displayedProducts = filteredProducts;
 
   return (
     <motion.div 

@@ -109,8 +109,6 @@ const CategoryPageComplete = ({ selectedCategory }) => {
         <div className="xl:w-[70%] md:w-[50%] lg:w-[65%] w-full">
           <div className="grid gap-6 xl:gap-10 justify-center pt-14 grid-cols-1">
             <ProductData
-              initialLimit={null} // Show all products in category pages
-              mobileLimit={null}
               selectedCategory={selectedCategory}
               searchTerm={debouncedSearchTerm}
               isSearching={isSearching}
