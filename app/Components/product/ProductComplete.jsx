@@ -1,25 +1,55 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter, useSearchParams } from "next/navigation";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5";
 import SearchIcon from "@/public/images/search-normal.svg";
 import CategoryList from "./CategoryList";
 import ProductData from "./ProductData";
 
 const ProductComplete = () => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState("All Products");
   const [searchTerm, setSearchTerm] = useState("");
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [isCategoriesOpen, setIsCategoriesOpen] = useState(true);
 
+  // Function to create SEO-friendly URL slug
+  const createSlug = (text) => {
+    return text
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  };
+
+  // Function to get category from slug
+  const getCategoryFromSlug = (slug) => {
+    const categoryList = [
+      "All Products",
+      "Prepared plates media 90 MM",
+      "Prepared plates media 150 MM", 
+      "Prepared bioplates media 90 MM",
+      "Prepared tube media",
+      "Prepared media in Bottles"
+    ];
+    
+    return categoryList.find(category => 
+      createSlug(category) === slug
+    ) || "All Products";
+  };
+
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const category = params.get("category");
+    const category = searchParams.get("category");
     if (category) {
-      setSelectedCategory(category);
+      const decodedCategory = getCategoryFromSlug(category);
+      setSelectedCategory(decodedCategory);
     }
-  }, []); // Runs only on the client side after the initial render
+  }, [searchParams]);
 
   // Debouncing search term
   useEffect(() => {
@@ -37,6 +67,14 @@ const ProductComplete = () => {
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
+    
+    // Update URL based on category selection
+    if (category === "All Products") {
+      router.push("/product");
+    } else {
+      const slug = createSlug(category);
+      router.push(`/product?category=${slug}`);
+    }
   };
 
   const handleSearchChange = (e) => {

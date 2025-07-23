@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
 import productData from "@/data/products";
 
 const ProductData = ({selectedCategory, searchTerm, initialLimit, mobileLimit, isSearching}) => {
@@ -35,7 +35,7 @@ const ProductData = ({selectedCategory, searchTerm, initialLimit, mobileLimit, i
           <div className="text-gray-500">Searching...</div>
         </div>
       )}
-      <table className="min-w-full w-full max-w-full bg-white">
+      <table className="min-w-full w-full max-w-full bg-white overflow-hidden">
         <thead>
           <tr>
             <th className="py-2 px-4 border-b text-left">Product Name</th>

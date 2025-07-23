@@ -7,6 +7,17 @@ import Bottles from "@/public/images/bottles.png";
 import Link from "next/link";
 
 const Card = () => {
+  // Function to create SEO-friendly URL slug
+  const createSlug = (text) => {
+    return text
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  };
+
   const cardData = [
     {
       id: 1,
@@ -39,7 +50,7 @@ const Card = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: id * 0.2 }}
           >
-            <Link href={`/product?category=${encodeURIComponent(info.category)}`}>
+            <Link href={`/product?category=${createSlug(info.category)}`}>
               <div className="h-full flex xl:flex-nowrap sm:flex-wrap relative -z-10 bg-dog-food bg-cover bg-no-repeat bg-primary-new/40">
                 <h2 className="text-secondary text-[28px] pb-2 font-normal font-arial mt-[176px] ml-4">
                   {info.title}
