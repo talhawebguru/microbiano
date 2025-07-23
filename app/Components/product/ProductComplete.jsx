@@ -1,12 +1,17 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import ArrowDown from "@/public/images/arrow-down.svg";
+import { IoChevronDown, IoChevronUp } from "react-icons/io5";
+import SearchIcon from "@/public/images/search-normal.svg";
 import CategoryList from "./CategoryList";
 import ProductData from "./ProductData";
 
 const ProductComplete = () => {
   const [selectedCategory, setSelectedCategory] = useState("All Products");
+  const [searchTerm, setSearchTerm] = useState("");
+  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
+  const [isSearching, setIsSearching] = useState(false);
+  const [isCategoriesOpen, setIsCategoriesOpen] = useState(true);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -16,8 +21,30 @@ const ProductComplete = () => {
     }
   }, []); // Runs only on the client side after the initial render
 
+  // Debouncing search term
+  useEffect(() => {
+    if (searchTerm) {
+      setIsSearching(true);
+    }
+
+    const timer = setTimeout(() => {
+      setDebouncedSearchTerm(searchTerm);
+      setIsSearching(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, [searchTerm]);
+
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  const toggleCategories = () => {
+    setIsCategoriesOpen(!isCategoriesOpen);
   };
 
   return (
@@ -26,27 +53,41 @@ const ProductComplete = () => {
         <div className="md:w-[43%] lg:w-[30%] xl:w-[350px] w-full mt-14">
           <div className="md:hidden">{/* <MobileProductDrop /> */}</div>
           <div className="xl:w-[350px] pb-3 bg-white shadow md:block hidden">
-            <form className="flex mb-3">
+            <form className="flex mb-3 relative">
               <input
                 type="text"
-                className="w-full xl:w-[350px] h-14 px-[16px] py-4 bg-white shadow justify-start items-start gap-2.5 inline-flex text-[#bdbab8] text-[13px] font-normal font-primary leading-tight"
-                placeholder="Search"
+                value={searchTerm}
+                onChange={handleSearchChange}
+                className="w-full xl:w-[350px] h-14 px-[16px] py-4 pr-12 bg-white shadow justify-start items-start gap-2.5 inline-flex text-neutral-light-gray placeholder:text-[#bdbab8] text-[13px] font-normal font-primary leading-tight border border-none focus:border-secondary active:border-secondary focus:ring-2 focus:ring-secondary/30 focus:outline-none transition-all duration-200"
+                placeholder="Search products..."
               />
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+                <Image src={SearchIcon} alt="Search" width={20} height={20} />
+              </div>
             </form>
-            <div className="flex items-center content-center justify-between pt-6 mx-4">
+            <div
+              className="flex items-center content-center justify-between pt-6 mx-4 cursor-pointer"
+              onClick={toggleCategories}
+            >
               <h2 className="text-divi-gray text-2xl font-normal font-nohemi leading-[28.80px]">
                 Categories
               </h2>
-              <div>
-                <Image src={ArrowDown} alt="Arrow Down" />
+              <div className="text-divi-gray hover:text-secondary transition-colors duration-200">
+                {isCategoriesOpen ? (
+                  <IoChevronUp size={24} />
+                ) : (
+                  <IoChevronDown size={24} />
+                )}
               </div>
             </div>
             <div className="w-full h-[0px] border border-[#eae9e8] mt-6"></div>
             {/* Categories List Call */}
-            <CategoryList
-              onCategorySelect={handleCategorySelect}
-              selectedCategory={selectedCategory}
-            />
+            {isCategoriesOpen && (
+              <CategoryList
+                onCategorySelect={handleCategorySelect}
+                selectedCategory={selectedCategory}
+              />
+            )}
           </div>
           <div className="flex justify-center items-center mt-10">
             <a href="/Microbiano.pdf" target="_blank" download>
@@ -62,6 +103,8 @@ const ProductComplete = () => {
               initialLimit={21}
               mobileLimit={8}
               selectedCategory={selectedCategory}
+              searchTerm={debouncedSearchTerm}
+              isSearching={isSearching}
             />
           </div>
         </div>

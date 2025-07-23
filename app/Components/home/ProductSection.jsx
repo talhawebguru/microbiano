@@ -48,6 +48,7 @@ const ProductSection = () => {
             initialLimit={8}
             mobileLimit={4}
             selectedCategory="All Products"
+            searchTerm=""
           />
         </motion.div>
 

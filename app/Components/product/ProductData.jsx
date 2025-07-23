@@ -1,42 +1,81 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import productData from "@/data/products";
 
-const ProductData = ({selectedCategory}) => {
+const ProductData = ({selectedCategory, searchTerm, initialLimit, mobileLimit, isSearching}) => {
 
+  // Filter products based on category and search term
+  const filteredProducts = productData.filter((product) => {
+    const matchesCategory = selectedCategory === "All Products" || product.category === selectedCategory;
+    const matchesSearch = !searchTerm || 
+      product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      product.productCode.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      product.packSize.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      product.shelfLife.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      product.storageTemp.toLowerCase().includes(searchTerm.toLowerCase());
+    
+    return matchesCategory && matchesSearch;
+  });
 
-  const filteredProducts =
-    selectedCategory === "All Products"
-      ? productData
-      : productData.filter((product) => product.category === selectedCategory);
-
-  const displayedProducts = filteredProducts;
+  // Apply limit for home page display
+  const displayedProducts = initialLimit 
+    ? filteredProducts.slice(0, initialLimit)
+    : filteredProducts;
 
   return (
-    <div className="overflow-x-auto w-full">
+    <motion.div 
+      className="overflow-x-auto w-full"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      {isSearching && (
+        <div className="flex justify-center items-center py-4">
+          <div className="text-gray-500">Searching...</div>
+        </div>
+      )}
       <table className="min-w-full w-full max-w-full bg-white">
         <thead>
           <tr>
-            <th className="py-2 px-4 border-b">Product Name</th>
-            <th className="py-2 px-4 border-b">Product Code</th>
-            <th className="py-2 px-4 border-b">Pack Size</th>
-            <th className="py-2 px-4 border-b">Shelf Life</th>
-            <th className="py-2 px-4 border-b">Storage Temp</th>
+            <th className="py-2 px-4 border-b text-left">Product Name</th>
+            <th className="py-2 px-4 border-b text-left">Product Code</th>
+            <th className="py-2 px-4 border-b text-left">Pack Size</th>
+            <th className="py-2 px-4 border-b text-left">Shelf Life</th>
+            <th className="py-2 px-4 border-b text-left">Storage Temp</th>
           </tr>
         </thead>
         <tbody>
-          {displayedProducts.map((info, id) => (
-            <tr key={id} className="">
-              <td className="py-4 px-4 border-b text-center">{info.name}</td>
-              <td className="py-4 px-4 border-b text-center">{info.productCode}</td>
-              <td className="py-4 px-4 border-b text-center">{info.packSize}</td>
-              <td className="py-4 px-4 border-b text-center">{info.shelfLife}</td>
-              <td className="py-4 px-4 border-b text-center">{info.storageTemp}</td>
-            </tr>
-          ))}
+          {!isSearching && displayedProducts.length > 0 ? (
+            displayedProducts.map((info, id) => (
+              <motion.tr 
+                key={id} 
+                className="hover:bg-gray-50"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: id * 0.05 }}
+              >
+                <td className="py-4 px-4 border-b">{info.name}</td>
+                <td className="py-4 px-4 border-b">{info.productCode}</td>
+                <td className="py-4 px-4 border-b">{info.packSize}</td>
+                <td className="py-4 px-4 border-b">{info.shelfLife}</td>
+                <td className="py-4 px-4 border-b">{info.storageTemp}</td>
+              </motion.tr>
+            ))
+          ) : !isSearching && displayedProducts.length === 0 ? (
+            <motion.tr
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
+              <td colSpan="5" className="py-8 px-4 text-center text-gray-500">
+                No products found matching your search criteria.
+              </td>
+            </motion.tr>
+          ) : null}
         </tbody>
       </table>
-    </div>
+    </motion.div>
   );
 };
 
