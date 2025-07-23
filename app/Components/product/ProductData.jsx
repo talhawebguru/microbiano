@@ -2,8 +2,9 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "motion/react"
 import productData from "@/data/products";
+import CategoryContent from "./CategoryContent";
 
-const ProductData = ({selectedCategory, searchTerm, initialLimit, mobileLimit, isSearching}) => {
+const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching}) => {
 
   // Filter products based on category and search term
   const filteredProducts = productData.filter((product) => {
@@ -75,6 +76,10 @@ const ProductData = ({selectedCategory, searchTerm, initialLimit, mobileLimit, i
           ) : null}
         </tbody>
       </table>
+         
+      {/* Category Content Section - Only show on product page, not on home page */}
+      <CategoryContent selectedCategory={selectedCategory} />
+
     </motion.div>
   );
 };
