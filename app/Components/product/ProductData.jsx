@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import productData from "@/data/products";
 import CategoryContent from "./CategoryContent";
 
-const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching}) => {
+const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching, showCategoryContent = true}) => {
 
   // Filter products based on category and search term
   const filteredProducts = productData.filter((product) => {
@@ -26,7 +26,7 @@ const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching}) 
 
   return (
     <motion.div 
-      className="overflow-x-auto w-full"
+      className="overflow-x-auto overflow-hidden w-full"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -77,8 +77,10 @@ const ProductData = ({selectedCategory, searchTerm, initialLimit, isSearching}) 
         </tbody>
       </table>
          
-      {/* Category Content Section - Only show on product page, not on home page */}
-      <CategoryContent selectedCategory={selectedCategory} />
+      {/* Category Content Section - Only show when showCategoryContent is true */}
+      {showCategoryContent && selectedCategory !== "All Products" && (
+        <CategoryContent selectedCategory={selectedCategory} />
+      )}
 
     </motion.div>
   );

@@ -292,7 +292,7 @@ const CategoryContent = ({ selectedCategory }) => {
 
   const content = getCategoryContent(selectedCategory);
 
-  if (!content || selectedCategory === "All Products") {
+  if (!content) {
     return null;
   }
 

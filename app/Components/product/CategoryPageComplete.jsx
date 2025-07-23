@@ -1,15 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { IoChevronDown, IoChevronUp } from "react-icons/io5";
+import { IoChevronUp, IoChevronDown } from "react-icons/io5";
+import { motion } from "motion/react";
 import SearchIcon from "@/public/images/search-normal.svg";
-import CategoryList from "./CategoryList";
 import ProductData from "./ProductData";
+import CategoryList from "./CategoryList";
+import { useRouter } from 'next/navigation';
 
-const ProductComplete = () => {
+const CategoryPageComplete = ({ selectedCategory }) => {
   const router = useRouter();
-  const [selectedCategory, setSelectedCategory] = useState("All Products");
   const [searchTerm, setSearchTerm] = useState("");
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
   const [isSearching, setIsSearching] = useState(false);
@@ -23,6 +23,7 @@ const ProductComplete = () => {
     'Prepared tube media': 'prepared-tube-media',
     'Prepared media in Bottles': 'prepared-bottle-media'
   };
+
   // Debouncing search term
   useEffect(() => {
     if (searchTerm) {
@@ -39,9 +40,8 @@ const ProductComplete = () => {
 
   const handleCategorySelect = (category) => {
     if (category === "All Products") {
-      setSelectedCategory(category);
+      router.push("/product");
     } else {
-      // Navigate to category page
       const slug = categoryUrlMapping[category];
       if (slug) {
         router.push(`/category/${slug}`);
@@ -61,7 +61,7 @@ const ProductComplete = () => {
     <>
       <div className="flex flex-wrap md:flex-nowrap 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 md:justify-between justify-center xl:px-[90px] lg:px-[40px] px-5 gap-5">
         <div className="md:w-[43%] lg:w-[30%] xl:w-[350px] w-full mt-14">
-          <div className="md:hidden">{/* <MobileProductDrop /> */}</div>
+          <div className="md:hidden">{/* Mobile dropdown can be added here */}</div>
           <div className="xl:w-[350px] pb-3 bg-white shadow md:block hidden">
             <form className="flex mb-3 relative">
               <input
@@ -91,7 +91,6 @@ const ProductComplete = () => {
               </div>
             </div>
             <div className="w-full h-[0px] border border-[#eae9e8] mt-6"></div>
-            {/* Categories List Call */}
             {isCategoriesOpen && (
               <CategoryList
                 onCategorySelect={handleCategorySelect}
@@ -110,12 +109,11 @@ const ProductComplete = () => {
         <div className="xl:w-[70%] md:w-[50%] lg:w-[65%] w-full">
           <div className="grid gap-6 xl:gap-10 justify-center pt-14 grid-cols-1">
             <ProductData
-              initialLimit={200}
-              mobileLimit={8}
+              initialLimit={null} // Show all products in category pages
+              mobileLimit={null}
               selectedCategory={selectedCategory}
               searchTerm={debouncedSearchTerm}
               isSearching={isSearching}
-              showCategoryContent={false}
             />
           </div>
         </div>
@@ -124,4 +122,4 @@ const ProductComplete = () => {
   );
 };
 
-export default ProductComplete;
+export default CategoryPageComplete;

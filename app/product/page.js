@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Banner from '../Components/common/Banner'
 import PageNameBanner from '../Components/common/PageNameBanner'
 import ProductBanner from "@/public/images/productPageBanner.png"
@@ -8,7 +8,9 @@ const page = () => {
   return (
     <>
       <PageNameBanner title='Product Page' image={ProductBanner}/>
-      <ProductComplete/>
+      <Suspense fallback={<div>Loading...</div>}>
+        <ProductComplete/>
+      </Suspense>
       <Banner/>
     </>
   )
