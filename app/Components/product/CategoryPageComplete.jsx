@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { IoChevronUp, IoChevronDown } from "react-icons/io5";
-import { motion } from "motion/react";
 import SearchIcon from "@/public/images/search-normal.svg";
 import ProductData from "./ProductData";
 import CategoryList from "./CategoryList";
