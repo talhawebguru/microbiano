@@ -41,7 +41,7 @@ const ContactInformation = () => {
           <CardContact
             image={EmailIcon}
             title="Email:"
-            info="support@yoursite.com"
+            info="info@microbiano.com"
           />
         </motion.div>
         <motion.div
