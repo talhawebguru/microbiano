@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 import * as motion from "motion/react-client"
 import "swiper/css";
 import "swiper/css/navigation";
@@ -78,12 +79,16 @@ const SliderHero = () => {
                         transition={{ duration: 0.5, delay: 0.6 }}
                         className="mt-11 pl-2.5 lg:pb-36"
                       >
-                        <button className="w-[134px] h-12 bg-secondary text-white text-base font-normal font-arial">
-                          Enquire now
-                        </button>
-                        <button className="w-[134px] h-12 border border-secondary text-secondary text-base font-semibold ml-3 font-arial">
-                          Learn more
-                        </button>
+                        <Link href="/contact">
+                          <button className="w-[134px] h-12 bg-secondary text-white text-base font-normal font-arial hover:bg-secondary/90 transition-colors duration-300">
+                            Enquire now
+                          </button>
+                        </Link>
+                        <Link href="/about">
+                          <button className="w-[134px] h-12 border border-secondary text-secondary text-base font-semibold ml-3 font-arial hover:bg-secondary hover:text-white transition-colors duration-300">
+                            Learn more
+                          </button>
+                        </Link>
                       </motion.div>
                     </div>
                     <motion.div
