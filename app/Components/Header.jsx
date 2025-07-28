@@ -68,7 +68,7 @@ const Header = () => {
 
   return (
     <>
-      <div className={`pt-5 xl:px-[90px] lg:px-10 px-5   ${getHeaderColor()}`}>
+      <div className={`pt-5 xl:px-[90px] lg:px-10 px-5 ${getHeaderColor()}`}>
         <motion.div 
           className="hidden 2xl:max-w-[1440px] 2xl:mx-auto lg:flex flex-wrap justify-between items-center text-neutral-dark-gray text-[13px] font-primary"
           initial={{ opacity: 0, y: -50 }}
@@ -139,17 +139,17 @@ const Header = () => {
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2">
+                        <Link href="/category/prepared-plate-media-90mm-mono" className="block px-3 py-2">
                           Prepared Cultured Media Plates
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2">
+                        <Link href="/category/prepared-tube-media" className="block px-3 py-2">
                           Prepared Culture Media Tube
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2">
+                        <Link href="/category/prepared-bottle-media" className="block px-3 py-2">
                           Prepared Culture Media Bottles
                         </Link>
                       </li>
@@ -312,7 +312,7 @@ const Header = () => {
                             </li>
                             <li>
                               <Link
-                                href="#"
+                                href="/category/prepared-plate-media-90mm-mono"
                                 className="block py-2 hover:text-secondary text-sm"
                                 onClick={handleLinkClick}
                               >
@@ -321,7 +321,7 @@ const Header = () => {
                             </li>
                             <li>
                               <Link
-                                href="#"
+                                href="/category/prepared-tube-media"
                                 className="block py-2 hover:text-secondary text-sm"
                                 onClick={handleLinkClick}
                               >
@@ -330,38 +330,11 @@ const Header = () => {
                             </li>
                             <li>
                               <Link
-                                href="#"
+                                href="/category/prepared-bottle-media"
                                 className="block py-2 hover:text-secondary text-sm"
                                 onClick={handleLinkClick}
                               >
                                 Prepared Culture Media Bottles
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="#"
-                                className="block py-2 hover:text-secondary text-sm"
-                                onClick={handleLinkClick}
-                              >
-                                Clinical & Veterinary Products
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="#"
-                                className="block py-2 hover:text-secondary text-sm"
-                                onClick={handleLinkClick}
-                              >
-                                Food, Water & Environmental
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="#"
-                                className="block py-2 hover:text-secondary text-sm"
-                                onClick={handleLinkClick}
-                              >
-                                Pharma & Industrial
                               </Link>
                             </li>
                           </ul>
