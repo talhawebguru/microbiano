@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 const CategoryContent = ({ selectedCategory }) => {
   const getCategoryContent = (category) => {
@@ -33,11 +34,11 @@ const CategoryContent = ({ selectedCategory }) => {
                     "Mannitol Salt Agar – Selective for Staphylococcus spp.",
                     "CLED Agar – For urinary tract pathogens",
                     "Chromogenic Agars – For rapid identification of resistant strains:",
-                    "• Chrom MRSA",
-                    "• Chrom UTI",
-                    "• Chrom ESBL",
-                    "• Chrom Salmonella Plus",
-                    "• Chrom Candida Plus"
+                    "Chrom MRSA",
+                    "Chrom UTI",
+                    "Chrom ESBL",
+                    "Chrom Salmonella Plus",
+                    "Chrom Candida Plus"
                   ]
                 },
                 {
@@ -80,6 +81,18 @@ const CategoryContent = ({ selectedCategory }) => {
               title: "Custom Media or Bulk Orders?",
               content: "Need a special formulation or high-volume supply? Contact our lab team for custom media plates or large-quantity quotes.",
               contact: "📧 Email: info@microbiano.com"
+            },
+            {
+              title: "Explore Our Microbiological Media Range",
+              content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
+              items: [
+                <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
+                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
+                <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
+                <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
+              ],
+              footer: "Each product is designed for accuracy and quality, supporting your microbiological needs with ease."
             }
           ]
         };
@@ -123,6 +136,18 @@ const CategoryContent = ({ selectedCategory }) => {
               title: "Custom Media or Bulk Orders?",
               content: "Need a special formulation or high-volume supply? Contact our lab team for custom media plates or large-quantity quotes.",
               contact: "📧 Email: info@microbiano.com"
+            },
+            {
+              title: "Explore Our Microbiological Media Range",
+              content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
+              items: [
+                <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
+                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
+                <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
+                <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
+              ],
+              footer: "Each product is designed for accuracy and quality, supporting your microbiological needs with ease."
             }
           ]
         };
@@ -190,6 +215,18 @@ const CategoryContent = ({ selectedCategory }) => {
               title: "Need Custom Media or Bulk Orders?",
               content: "Looking for large-volume supply or a custom agar blend? Our in-house lab can prepare bespoke media solutions tailored to your research or clinical application.",
               contact: "📧 Email: info@microbiano.com"
+            },
+            {
+              title: "Explore Our Microbiological Media Range",
+              content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
+              items: [
+                <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
+                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
+                <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
+                <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
+              ],
+              footer: "Each product is designed for accuracy and quality, supporting your microbiological needs with ease."
             }
           ]
         };
@@ -236,6 +273,18 @@ const CategoryContent = ({ selectedCategory }) => {
               title: "Custom Media or Bulk Orders?",
               content: "Need a special formulation or high-volume supply? Contact our lab team for custom-prepared tube media (slants & broths) or large-quantity quotes.",
               contact: "📧 Email: info@microbiano.com"
+            },
+            {
+              title: "Explore Our Microbiological Media Range",
+              content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
+              items: [
+                <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
+                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
+                <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
+                <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
+              ],
+              footer: "Each product is designed for accuracy and quality, supporting your microbiological needs with ease."
             }
           ]
         };
@@ -281,6 +330,18 @@ const CategoryContent = ({ selectedCategory }) => {
               title: "Custom Media or Bulk Orders?",
               content: "Need a special formulation or high-volume supply? Contact our lab team for custom Prepared Bottle Media or large-quantity quotes.",
               contact: "📧 Email: info@microbiano.com"
+            },
+            {
+              title: "Explore Our Microbiological Media Range",
+              content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
+              items: [
+                <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
+                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
+                <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
+                <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
+              ],
+              footer: "Each product is designed for accuracy and quality, supporting your microbiological needs with ease."
             }
           ]
         };
@@ -304,14 +365,14 @@ const CategoryContent = ({ selectedCategory }) => {
       transition={{ duration: 0.5 }}
     >
       <div className="">
-        <motion.h1
+        <motion.h2
           className="text-3xl font-bold text-divi-gray mb-4 font-nohemi"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           {content.title}
-        </motion.h1>
+        </motion.h2>
         
         <motion.p
           className="text-neutral-light-gray text-lg leading-relaxed mb-8 font-secondary"

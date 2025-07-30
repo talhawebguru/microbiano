@@ -7,7 +7,7 @@ import ProductComplete from '../Components/product/ProductComplete'
 const page = () => {
   return (
     <>
-      <PageNameBanner title='Product Page' image={ProductBanner}/>
+      <PageNameBanner title='All Products' image={ProductBanner}/>
       <Suspense fallback={<div>Loading...</div>}>
         <ProductComplete/>
       </Suspense>

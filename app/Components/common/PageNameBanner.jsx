@@ -18,7 +18,7 @@ const PageNameBanner = (props) => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-white text-5xl xs:text-[32px] font-normal font-nohemi absolute bottom-9 left-9"
+          className="text-white text-5xl xs:text-[32px] font-normal font-nohemi absolute bottom-9 left-9 capitalize"
         >
           {props.title}
         </motion.h1>
