@@ -60,6 +60,7 @@ const Card = () => {
                 </h2>
                 <Image
                   src={info.image}
+                  alt={info.title}
                   width={256}
                   height={208}
                   className="w-64 h-52 absolute -z-10 right-0 bottom-0 bg-blend-normal"

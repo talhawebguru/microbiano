@@ -63,7 +63,7 @@ const SliderHero = () => {
                         Microbiano: Leading Supplier of Prepared Culture Media and Microbiological Testing Products
                       </motion.h1>
                       <div className="ml-80 ">
-                        <Image src={Vector1} />
+                        <Image src={Vector1} alt="Decorative Vector" />
                       </div>
                       <motion.p
                         initial={{ opacity: 0, x: -50 }}
@@ -99,6 +99,7 @@ const SliderHero = () => {
                     >
                       <Image
                         src={Heroimg}
+                        alt="Hero Image"
                         className="relative right-0 bottom-0 top-0 sm:w-[500px] lg:w-[100%] h-full"
                         width={717}
                         height={623}

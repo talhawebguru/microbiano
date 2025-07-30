@@ -15,7 +15,7 @@ const AboutUsSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <Image src={Doctor} />
+            <Image src={Doctor} alt="Doctor in medical laboratory" />
           </motion.div>
           <motion.div
             className="xs:mt-5"
@@ -27,7 +27,7 @@ const AboutUsSection = () => {
               About Us
             </h2>
             <div>
-              <Image src={Vector} />
+              <Image src={Vector} alt="Decorative underline vector" />
             </div>
             <div>
               <motion.p

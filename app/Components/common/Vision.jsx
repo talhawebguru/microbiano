@@ -23,6 +23,7 @@ const Vision = () => {
             </h2>
             <Image
               src={Vector}
+              alt="Vector Image"
               className="sm:ml-48 xs:ml-9 xs:mt-3 mb-9 lg:mb-0"
             />
           </div>
@@ -79,7 +80,7 @@ const Vision = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <Image src={VisionImg} className="mt-12 xl:ml-12 lg:mt-0" />
+          <Image src={VisionImg} alt="Vision and Mission Illustration" className="mt-12 xl:ml-12 lg:mt-0" />
           <div className="w-[155px] h-[397px] bg-secondary lg:absolute -z-10 hidden xl:block top-28 left-16 2xl:left-0" />
         </motion.div>
       </div>

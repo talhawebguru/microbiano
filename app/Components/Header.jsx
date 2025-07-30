@@ -93,11 +93,10 @@ const Header = () => {
           animate={{ opacity: 0.4, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         ></motion.div>
-
         <nav className="flex items-center justify-between 2xl:max-w-[1440px] 2xl:mx-auto  ">
           <div>
             <Link href="/">
-              <Image src={Logo} alt="StomaFlex Logo" />
+              <Image src={Logo} alt="Microbiano Logo" />
             </Link>
           </div>
           <div className="hidden lg:flex items-center">
@@ -161,13 +160,16 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <motion.div 
+            <motion.a 
+              href="https://jurhy.com/category/labortaory/29/"
+              target="_blank"
+              rel="follow"
               className="px-[25px] py-3 bg-secondary justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Get this from Jurhy <Image src={RightArrow} alt="Right Arrow" />
-            </motion.div>
+            </motion.a>
           </div>
           <div className="lg:hidden">
             <button onClick={toggleMenu} className="text-secondary" aria-label="Toggle mobile menu">
@@ -364,13 +366,16 @@ const Header = () => {
                   variants={mobileLinkVariants}
                   className="mt-8"
                 >
-                  <motion.button
+                  <motion.a
+                    href="https://jurhy.com/category/labortaory/29/"
+                    target="_blank"
+                    rel="follow"
                     className="w-full px-6 py-3 bg-secondary text-white flex justify-center items-center gap-3 rounded-lg text-base font-medium font-primary"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >
                     Get this from Jurhy <Image src={RightArrow} alt="Right Arrow" />
-                  </motion.button>
+                  </motion.a>
                 </motion.div>
 
                 {/* Social Icons */}

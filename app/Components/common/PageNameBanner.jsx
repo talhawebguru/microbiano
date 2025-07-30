@@ -12,7 +12,7 @@ const PageNameBanner = (props) => {
           transition={{ duration: 0.5 }}
           className="absolute -z-10 w-full h-full"
         >
-          <Image src={props.image} className="w-full h-full object-cover object-right inset-0" />
+          <Image src={props.image} alt={props.title || "Banner Image"} className="w-full h-full object-cover object-right inset-0" />
         </motion.div>
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
