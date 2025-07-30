@@ -10,26 +10,79 @@ export const metadata = {
   canonical: "https://microbiano.com/",
   robots: "index, follow",
   openGraph: {
-    title: "Microbiano - Premium Microbiological Media & Laboratory Solutions",
-    description: "Leading supplier of high-quality microbiological culture media, agar plates, and laboratory solutions in UAE. ISO-certified products for clinical, pharmaceutical, and research applications.",
+    title: "Top Supplier of Culture Media & Microbiological Products",
+    description: "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     url: "https://microbiano.com/",
     type: "website",
     siteName: "Microbiano",
+    image: [
+      {
+        url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
+        width: 1200,
+        height: 630,
+        alt: "Microbiano Logo"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Microbiano - Premium Microbiological Media & Laboratory Solutions",
-    description: "Leading supplier of high-quality microbiological culture media, agar plates, and laboratory solutions in UAE. ISO-certified products for clinical, pharmaceutical, and research applications.",
+    title: "Top Supplier of Culture Media & Microbiological Products",
+    description: "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     site: "@microbiano",
+    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
   },
 };
 
 export default function Home() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://microbiano.com/#website",
+        "url": "https://microbiano.com/",
+        "name": "Microbiano",
+        "description": "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
+        "inLanguage": "en-AE",
+        "publisher": {
+          "@id": "https://microbiano.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://microbiano.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://microbiano.com/#organization",
+        "name": "Microbiano",
+        "url": "https://microbiano.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://microbiano.com/_next/static/media/logo.4a12fe82.svg"
+        },
+        "sameAs": [],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "AE"
+        }
+      }
+    ]
+  };
+
   return (
     <>
+        {/* Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData, null, 2)
+          }}
+        />
+        
         <SliderHero />
         <Card />
-        {/* <ProductSection/> */}
         <AboutUsSection />
         <Vision />
         <Banner />
