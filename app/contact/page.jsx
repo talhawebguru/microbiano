@@ -17,12 +17,21 @@ export const metadata = {
     url: "https://microbiano.com/contact",
     type: "website",
     siteName: "Microbiano",
+    image: [
+      {
+        url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
+        width: 1200,
+        height: 630,
+        alt: "Microbiano Logo"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Contact Us | Microbiano - Expert Support for Microbiological Products",
     description: "Have questions or need assistance? Contact Microbiano to learn more about our microbiological products and services. Our dedicated team is ready to provide the support and information you need. Reach out to us today!",
     site: "@microbiano",
+    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
   },
 };
 

@@ -15,12 +15,21 @@ export const metadata = {
     url: "https://microbiano.com/product",
     type: "website",
     siteName: "Microbiano",
+    image: [
+      {
+        url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
+        width: 1200,
+        height: 630,
+        alt: "Microbiano Logo"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "All Products | Microbiano - Complete Range of Microbiological Media",
     description: "Explore Microbiano's complete range of microbiological products including prepared agar plates, tube media, bottle media, and laboratory solutions. ISO-certified quality for all your lab needs.",
     site: "@microbiano",
+    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
   },
 };
 

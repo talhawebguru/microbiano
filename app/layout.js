@@ -5,13 +5,13 @@ import Footer from "./Components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "700"], // Specify the weights you want
+  weight: ["400", "700"],
   variable: "--font-inter",
 });
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "600"], // Specify the weights you want
+  weight: ["400", "600"],
   variable: "--font-poppins",
 });
 
@@ -43,6 +43,8 @@ export default function RootLayout({ children }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="alternate" href="https://microbiano.com/" hreflang="en-AE" />
+        <link rel="alternate" href="https://microbiano.com/" hreflang="x-default" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} overflow-x-hidden`}>
         <Header />

@@ -80,7 +80,6 @@ export default function Home() {
             __html: JSON.stringify(schemaData, null, 2)
           }}
         />
-        
         <SliderHero />
         <Card />
         <AboutUsSection />

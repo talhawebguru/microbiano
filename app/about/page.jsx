@@ -17,12 +17,21 @@ export const metadata = {
     url: "https://microbiano.com/about",
     type: "website",
     siteName: "Microbiano",
+    image: [
+      {
+        url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
+        width: 1200,
+        height: 630,
+        alt: "Microbiano Logo"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Microbiano - Experts in Microbiological Products & Solutions",
     description: "Microbiano, based in KEZAD, Abu Dhabi, UAE, is a leading supplier of culture media, broth, and microbiological products. Committed to quality, we serve clients across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     site: "@microbiano",
+    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
   },
 };
 
