@@ -12,6 +12,10 @@ export const metadata = {
   robots: "index, follow",
   alternates: {
     canonical: "https://microbiano.com/contact",
+    languages: {
+      'en-AE': 'https://microbiano.com/contact',
+      'x-default': 'https://microbiano.com/contact',
+    },
   },
   openGraph: {
     title: "Contact Us | Microbiano - Expert Support for Microbiological Products",

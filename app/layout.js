@@ -43,8 +43,6 @@ export default function RootLayout({ children }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="alternate" href="https://microbiano.com/" hreflang="en-AE" />
-        <link rel="alternate" href="https://microbiano.com/" hreflang="x-default" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} overflow-x-hidden`}>
         <Header />

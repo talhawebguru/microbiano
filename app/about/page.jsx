@@ -12,6 +12,10 @@ export const metadata = {
   robots: "index, follow",
   alternates: {
     canonical: "https://microbiano.com/about",
+    languages: {
+      'en-AE': 'https://microbiano.com/about',
+      'x-default': 'https://microbiano.com/about',
+    },
   },
   openGraph: {
     title: "Microbiano - Experts in Microbiological Products & Solutions",

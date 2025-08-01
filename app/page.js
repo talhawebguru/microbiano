@@ -10,6 +10,10 @@ export const metadata = {
   robots: "index, follow",
   alternates: {
     canonical: "https://microbiano.com/",
+    languages: {
+      'en-AE': 'https://microbiano.com/',
+      'x-default': 'https://microbiano.com/',
+    },
   },
   openGraph: {
     title: "Top Supplier of Culture Media & Microbiological Products",

@@ -70,7 +70,7 @@ export async function generateMetadata({ params }) {
   const categoryProducts = productData.filter(product => product.category === categoryName);
   
   // Generate schema markup for products
-  const productItems = categoryProducts.slice(0, 10).map((product, index) => ({
+  const productItems = categoryProducts.slice(0, 150).map((product, index) => ({
     "@type": "Product",
     "name": product.name,
     "url": `https://www.microbiano.com/product/${product.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
@@ -154,6 +154,10 @@ export async function generateMetadata({ params }) {
     keywords: `prepared media, agar plates, microbiology, laboratory supplies, ${categoryName.toLowerCase()}, sterile media, ISO certified`,
     alternates: {
       canonical: `https://microbiano.com/category/${slug}`,
+      languages: {
+        'en-AE': `https://microbiano.com/category/${slug}`,
+        'x-default': `https://microbiano.com/category/${slug}`,
+      },
     },
     robots: 'index, follow',
     author: 'Microbiano',

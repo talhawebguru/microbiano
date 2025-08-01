@@ -12,6 +12,10 @@ export const metadata = {
     "microbiological products, laboratory supplies, culture media, testing solutions, microbiology equipment",
   alternates: {
     canonical: "https://microbiano.com/product",
+    languages: {
+      'en-AE': 'https://microbiano.com/product',
+      'x-default': 'https://microbiano.com/product',
+    },
   },
   robots: "index, follow",
   openGraph: {
