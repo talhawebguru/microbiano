@@ -5,17 +5,23 @@ import ProductBanner from "@/public/images/productPageBanner.png"
 import ProductComplete from '../Components/product/ProductComplete'
 
 export const metadata = {
-  title: "All Products | Microbiano - Complete Range of Microbiological Media",
-  description: "Explore Microbiano's complete range of microbiological products including prepared agar plates, tube media, bottle media, and laboratory solutions. ISO-certified quality for all your lab needs.",
-  canonical: "https://microbiano.com/product",
+  title: "Our Products | Microbiano - Comprehensive Microbiological Solutions",
+  description:
+    "Explore our extensive range of microbiological products designed to meet your laboratory and research needs. From culture media to specialized testing solutions, discover quality products that ensure accurate and reliable results.",
+  keywords:
+    "microbiological products, laboratory supplies, culture media, testing solutions, microbiology equipment",
+  alternates: {
+    canonical: "https://microbiano.com/product",
+  },
   robots: "index, follow",
   openGraph: {
-    title: "All Products | Microbiano - Complete Range of Microbiological Media",
-    description: "Explore Microbiano's complete range of microbiological products including prepared agar plates, tube media, bottle media, and laboratory solutions. ISO-certified quality for all your lab needs.",
+    title: "Our Products | Microbiano - Comprehensive Microbiological Solutions",
+    description: "Explore our extensive range of microbiological products designed to meet your laboratory and research needs. From culture media to specialized testing solutions, discover quality products that ensure accurate and reliable results.",
     url: "https://microbiano.com/product",
     type: "website",
+    locale: "en-AE",
     siteName: "Microbiano",
-    image: [
+    images: [
       {
         url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
         width: 1200,
@@ -26,10 +32,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "All Products | Microbiano - Complete Range of Microbiological Media",
-    description: "Explore Microbiano's complete range of microbiological products including prepared agar plates, tube media, bottle media, and laboratory solutions. ISO-certified quality for all your lab needs.",
+    title: "Our Products | Microbiano - Comprehensive Microbiological Solutions",
+    description: "Explore our extensive range of microbiological products designed to meet your laboratory and research needs. From culture media to specialized testing solutions, discover quality products that ensure accurate and reliable results.",
     site: "@microbiano",
-    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
+    images: ["https://microbiano.com/_next/static/media/hero.191acaeb.svg"]
   },
 };
 

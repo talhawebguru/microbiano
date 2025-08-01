@@ -152,7 +152,9 @@ export async function generateMetadata({ params }) {
     title: metadata.title,
     description: metadata.description,
     keywords: `prepared media, agar plates, microbiology, laboratory supplies, ${categoryName.toLowerCase()}, sterile media, ISO certified`,
-    canonical: `https://microbiano.com/category/${slug}`,
+    alternates: {
+      canonical: `https://microbiano.com/category/${slug}`,
+    },
     robots: 'index, follow',
     author: 'Microbiano',
     openGraph: {
@@ -169,7 +171,7 @@ export async function generateMetadata({ params }) {
           alt: `${metadata.schemaName} – Microbiano`,
         }
       ],
-      locale: 'en_US',
+      locale: 'en-AE',
     },
     twitter: {
       card: 'summary_large_image',

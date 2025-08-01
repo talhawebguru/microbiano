@@ -9,15 +9,18 @@ export const metadata = {
   title: "Microbiano - Experts in Microbiological Products & Solutions",
   description:
     "Microbiano, based in KEZAD, Abu Dhabi, UAE, is a leading supplier of culture media, broth, and microbiological products. Committed to quality, we serve clients across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
-  canonical: "https://microbiano.com/about",
   robots: "index, follow",
+  alternates: {
+    canonical: "https://microbiano.com/about",
+  },
   openGraph: {
     title: "Microbiano - Experts in Microbiological Products & Solutions",
     description: "Microbiano, based in KEZAD, Abu Dhabi, UAE, is a leading supplier of culture media, broth, and microbiological products. Committed to quality, we serve clients across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     url: "https://microbiano.com/about",
     type: "website",
+    locale: "en-AE",
     siteName: "Microbiano",
-    image: [
+    images: [
       {
         url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
         width: 1200,
@@ -31,7 +34,7 @@ export const metadata = {
     title: "Microbiano - Experts in Microbiological Products & Solutions",
     description: "Microbiano, based in KEZAD, Abu Dhabi, UAE, is a leading supplier of culture media, broth, and microbiological products. Committed to quality, we serve clients across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     site: "@microbiano",
-    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
+    images: ["https://microbiano.com/_next/static/media/hero.191acaeb.svg"]
   },
 };
 

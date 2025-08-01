@@ -7,15 +7,18 @@ import SliderHero from "./Components/home/SliderHero";
 export const metadata = {
   title: "Top Supplier of Culture Media & Microbiological Products",
   description: "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
-  canonical: "https://microbiano.com/",
   robots: "index, follow",
+  alternates: {
+    canonical: "https://microbiano.com/",
+  },
   openGraph: {
     title: "Top Supplier of Culture Media & Microbiological Products",
     description: "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     url: "https://microbiano.com/",
     type: "website",
     siteName: "Microbiano",
-    image: [
+    locale: "en-AE",
+    images: [
       {
         url: "https://microbiano.com/_next/static/media/hero.191acaeb.svg",
         width: 1200,
@@ -29,7 +32,7 @@ export const metadata = {
     title: "Top Supplier of Culture Media & Microbiological Products",
     description: "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
     site: "@microbiano",
-    image: "https://microbiano.com/_next/static/media/hero.191acaeb.svg"
+    images: ["https://microbiano.com/_next/static/media/hero.191acaeb.svg"]
   },
 };
 
