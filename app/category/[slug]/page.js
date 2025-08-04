@@ -110,6 +110,7 @@ export async function generateMetadata({ params }) {
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
+      "@id": "https://www.microbiano.com#breadcrumbs",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -244,6 +245,7 @@ const CategoryPage = ({ params }) => {
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
+      "@id": "https://www.microbiano.com#breadcrumbs",
       "itemListElement": [
         {
           "@type": "ListItem",
