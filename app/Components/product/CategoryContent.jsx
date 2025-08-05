@@ -364,9 +364,9 @@ const CategoryContent = ({ selectedCategory }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="">
+      <div className="px-4 md:px-0">
         <motion.h2
-          className="text-3xl font-bold text-divi-gray mb-4 font-nohemi"
+          className="text-2xl md:text-3xl font-bold text-divi-gray mb-4 font-nohemi leading-tight"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -375,7 +375,7 @@ const CategoryContent = ({ selectedCategory }) => {
         </motion.h2>
         
         <motion.p
-          className="text-neutral-light-gray text-lg leading-relaxed mb-8 font-secondary"
+          className="text-neutral-light-gray text-base md:text-lg leading-relaxed mb-8 font-secondary"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -391,12 +391,12 @@ const CategoryContent = ({ selectedCategory }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
           >
-            <h2 className="text-2xl font-semibold text-divi-gray mb-4 font-arial">
+            <h2 className="text-xl md:text-2xl font-semibold text-divi-gray mb-4 font-arial leading-tight">
               {section.title}
             </h2>
             
             {section.content && (
-              <p className="text-neutral-light-gray leading-relaxed mb-4 font-secondary">
+              <p className="text-neutral-light-gray leading-relaxed mb-4 font-secondary text-sm md:text-base">
                 {section.content}
               </p>
             )}
@@ -415,10 +415,10 @@ const CategoryContent = ({ selectedCategory }) => {
               <div className="space-y-6">
                 {section.subsections.map((subsection, subIndex) => (
                   <div key={subIndex}>
-                    <h3 className="text-xl font-medium text-secondary mb-3 font-arial">
+                    <h3 className="text-lg md:text-xl font-medium text-secondary mb-3 font-arial">
                       {subsection.title}
                     </h3>
-                    <ul className="list-disc list-inside space-y-1 text-neutral-light-gray font-secondary ml-4">
+                    <ul className="list-disc list-inside space-y-1 text-neutral-light-gray font-secondary ml-2 md:ml-4 text-sm md:text-base">
                       {subsection.items.map((item, itemIndex) => (
                         <li key={itemIndex} className="leading-relaxed">
                           {item}
@@ -431,21 +431,21 @@ const CategoryContent = ({ selectedCategory }) => {
             )}
 
             {section.footer && (
-              <p className="text-secondary font-medium mt-4 font-secondary">
+              <p className="text-secondary font-medium mt-4 font-secondary text-sm md:text-base">
                 {section.footer}
               </p>
             )}
 
             {section.cta && (
               <div className="mt-4">
-                <button className="bg-secondary text-white px-6 py-3 rounded-md hover:bg-secondary/90 transition-colors duration-200 font-arial">
+                <button className="bg-secondary text-white px-4 md:px-6 py-2 md:py-3 rounded-md hover:bg-secondary/90 transition-colors duration-200 font-arial text-sm md:text-base w-full md:w-auto">
                   {section.cta}
                 </button>
               </div>
             )}
 
             {section.contact && (
-              <p className="text-secondary font-medium mt-4 font-secondary">
+              <p className="text-secondary font-medium mt-4 font-secondary text-sm md:text-base break-words">
                 {section.contact}
               </p>
             )}

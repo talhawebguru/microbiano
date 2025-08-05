@@ -5,6 +5,7 @@ import { IoChevronUp, IoChevronDown } from "react-icons/io5";
 import SearchIcon from "@/public/images/search-normal.svg";
 import ProductData from "./ProductData";
 import CategoryList from "./CategoryList";
+import MobileDropDown from "./MobileDropDown";
 import { useRouter } from 'next/navigation';
 
 const CategoryPageComplete = ({ selectedCategory }) => {
@@ -58,10 +59,35 @@ const CategoryPageComplete = ({ selectedCategory }) => {
 
   return (
     <>
-      <div className="flex flex-wrap md:flex-nowrap 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 md:justify-between justify-center xl:px-[90px] lg:px-[40px] px-5 gap-5">
-        <div className="md:w-[43%] lg:w-[30%] xl:w-[350px] w-full mt-14">
-          <div className="md:hidden">{/* Mobile dropdown can be added here */}</div>
-          <div className="xl:w-[350px] pb-3 bg-white shadow md:block hidden">
+      <div className="flex flex-wrap md:flex-nowrap 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 md:justify-between justify-center xl:px-[90px] lg:px-[40px] px-5 gap-5 mt-8">
+        {/* Mobile Search and Category Section */}
+        <div className="w-full md:hidden ">
+          {/* Mobile Search Bar */}
+          <div className="mb-4">
+            <form className="flex relative">
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={handleSearchChange}
+                className="w-full h-12 px-4 py-3 pr-12 bg-white shadow-sm border border-gray-200 rounded-lg justify-start items-start text-gray-700 placeholder:text-gray-400 text-sm font-normal font-primary focus:border-secondary focus:ring-2 focus:ring-secondary/20 focus:outline-none transition-all duration-200"
+                placeholder="Search products..."
+              />
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+                <Image src={SearchIcon} alt="Search" width={18} height={18} />
+              </div>
+            </form>
+          </div>
+          
+          {/* Mobile Category Dropdown */}
+          <MobileDropDown 
+            onCategorySelect={handleCategorySelect}
+            selectedCategory={selectedCategory}
+          />
+        </div>
+
+        {/* Desktop Sidebar */}
+        <div className="md:w-[43%] lg:w-[30%] xl:w-[350px] w-full mt-14 hidden md:block">
+          <div className="xl:w-[350px] pb-3 bg-white shadow">
             <form className="flex mb-3 relative">
               <input
                 type="text"
@@ -99,20 +125,31 @@ const CategoryPageComplete = ({ selectedCategory }) => {
           </div>
           <div className="flex justify-center items-center mt-10">
             <a href="/Microbiano.pdf" target="_blank" download>
-              <button className="bg-secondary px-3 py-4 text-white rounded-md">
+              <button className="bg-secondary px-3 py-4 text-white rounded-md hover:bg-secondary/90 transition-colors duration-200">
                 Download Catalog PDF
               </button>
             </a>
           </div>
         </div>
+
+        {/* Products Section */}
         <div className="xl:w-[70%] md:w-[50%] lg:w-[65%] w-full">
-          <div className="grid gap-6 xl:gap-10 justify-center pt-14 grid-cols-1">
+          <div className="grid gap-6 xl:gap-10 justify-center md:pt-14 pt-0 grid-cols-1">
             <ProductData
               selectedCategory={selectedCategory}
               searchTerm={debouncedSearchTerm}
               isSearching={isSearching}
             />
           </div>
+        </div>
+
+        {/* Mobile Download Button */}
+        <div className="w-full flex justify-center items-center mt-8 md:hidden">
+          <a href="/Microbiano.pdf" target="_blank" download>
+            <button className="bg-secondary px-6 py-3 text-white rounded-lg hover:bg-secondary/90 transition-colors duration-200 font-medium">
+              Download Catalog PDF
+            </button>
+          </a>
         </div>
       </div>
     </>
