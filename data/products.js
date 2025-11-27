@@ -1133,7 +1133,7 @@ const productData = [
   },
   {
     id: 114,
-    name: "Azide Dextrose Broth Single strength 10 ml",
+    name: "Azide Dextrose Broth - Single strength 10 ml",
     category: "Prepared tube media",
     productCode: "M2107",
     packSize: "10 ml x 10 Tubes",
@@ -1143,7 +1143,7 @@ const productData = [
   },
   {
     id: 115,
-    name: "Azide Dextrose Broth Double strength 10 ml",
+    name: "Azide Dextrose Broth - Double strength 10 ml",
     category: "Prepared tube media",
     productCode: "M2108",
     packSize: "10 ml x 10 Tubes",
@@ -1493,7 +1493,7 @@ const productData = [
   },
   {
     id: 150,
-    name: "Listeria Enrichment Broth UVM II Secondary 10 ml",
+    name: "Listeria Enrichment Broth UVM II - Secondary 10 ml",
     category: "Prepared tube media",
     productCode: "M2461",
     packSize: "10 ml x 10 Tubes",
@@ -1523,7 +1523,7 @@ const productData = [
   },
   {
     id: 153,
-    name: "Rappaport Vassiliadis Broth (RV)",
+    name: "Rappaport Vassiliadis Broth (RV) 10 ml",
     category: "Prepared tube media",
     productCode: "M2512",
     packSize: "10 ml x 10 Tubes",
@@ -1533,7 +1533,7 @@ const productData = [
   },
   {
     id: 154,
-    name: "Ringer solutions ¼ strength",
+    name: "Ringer solutions ¼ strength 9 ml",
     category: "Prepared tube media",
     productCode: "M2521",
     packSize: "9 ml x 10 Tubes",
@@ -1543,7 +1543,7 @@ const productData = [
   },
   {
     id: 155,
-    name: "Saline normal",
+    name: "Saline normal 5 ml",
     category: "Prepared tube media",
     productCode: "M2540",
     packSize: "5 ml x 10 Tubes",
@@ -1553,7 +1553,7 @@ const productData = [
   },
   {
     id: 156,
-    name: "Salt broth 6.5%",
+    name: "Salt broth 6.5% 5 ml",
     category: "Prepared tube media",
     productCode: "M2541",
     packSize: "5 ml x 10 Tubes",
@@ -1573,7 +1573,7 @@ const productData = [
   },
   {
     id: 158,
-    name: "Sabouraud Dextrose Broth",
+    name: "Sabouraud Dextrose Broth 5 ml",
     category: "Prepared tube media",
     productCode: "M2555",
     packSize: "5 ml x 10 Tubes",
@@ -1583,7 +1583,7 @@ const productData = [
   },
   {
     id: 159,
-    name: "Salmonella Shigella Broth",
+    name: "Salmonella Shigella Broth 5 ml",
     category: "Prepared tube media",
     productCode: "M2557",
     packSize: "5 ml x 10 Tubes",
@@ -1593,7 +1593,7 @@ const productData = [
   },
   {
     id: 160,
-    name: "SCDLP Broth",
+    name: "SCDLP Broth 10 ml",
     category: "Prepared tube media",
     productCode: "M2560",
     packSize: "10 ml x 10 Tubes",
@@ -1603,7 +1603,7 @@ const productData = [
   },
   {
     id: 161,
-    name: "Selenite Cystine Broth",
+    name: "Selenite Cystine Broth 8 ml",
     category: "Prepared tube media",
     productCode: "M2570",
     packSize: "8 ml x 10 Tubes",
@@ -1613,7 +1613,7 @@ const productData = [
   },
   {
     id: 162,
-    name: "Selenite F Broth",
+    name: "Selenite F Broth 8 ml",
     category: "Prepared tube media",
     productCode: "M2571",
     packSize: "8 ml x 10 Tubes",
@@ -1633,7 +1633,7 @@ const productData = [
   },
   {
     id: 164,
-    name: "SIM Medium",
+    name: "SIM Medium 5 ml",
     category: "Prepared tube media",
     productCode: "M2578",
     packSize: "5 ml x 10 Tubes",
@@ -1643,7 +1643,7 @@ const productData = [
   },
   {
     id: 165,
-    name: "Tetrathionate broth",
+    name: "Tetrathionate broth 10 ml",
     category: "Prepared tube media",
     productCode: "M2600",
     packSize: "10 ml x 10 Tubes",
@@ -1653,7 +1653,7 @@ const productData = [
   },
   {
     id: 166,
-    name: "Thioglycollate broth",
+    name: "Thioglycollate broth 10 ml",
     category: "Prepared tube media",
     productCode: "M2610",
     packSize: "10 ml x 10 Tubes",
@@ -1683,7 +1683,7 @@ const productData = [
   },
   {
     id: 169,
-    name: "Trypticase Soy Broth",
+    name: "Trypticase Soy Broth 10 ml",
     category: "Prepared tube media",
     productCode: "M2619",
     packSize: "10 ml x 10 Tubes",
@@ -1693,7 +1693,7 @@ const productData = [
   },
   {
     id: 170,
-    name: "Trypticase Soy Broth",
+    name: "Trypticase Soy Broth 5 ml",
     category: "Prepared tube media",
     productCode: "M2620",
     packSize: "5 ml x 10 Tubes",
@@ -1703,7 +1703,7 @@ const productData = [
   },
   {
     id: 171,
-    name: "Tryptone Water",
+    name: "Tryptone Water 5 ml",
     category: "Prepared tube media",
     productCode: "M2621",
     packSize: "5 ml x 10 Tubes",
@@ -1713,7 +1713,7 @@ const productData = [
   },
   {
     id: 172,
-    name: "Trypticasein Soy Broth with Novobiocine (mTSB)",
+    name: "Trypticasein Soy Broth with Novobiocine (mTSB) 10 ml",
     category: "Prepared tube media",
     productCode: "M2625",
     packSize: "10 ml x 10 Tubes",
@@ -1733,7 +1733,7 @@ const productData = [
   },
   {
     id: 174,
-    name: "Water sterile",
+    name: "Water sterile 5 ML",
     category: "Prepared tube media",
     productCode: "M2680",
     packSize: "5 ml x 10 Tubes",
