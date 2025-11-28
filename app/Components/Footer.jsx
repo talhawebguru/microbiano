@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import * as motion from "motion/react-client"
 import Logo from "@/public/images/logo.svg";
 import { FaFacebookF } from "react-icons/fa";
@@ -42,10 +43,26 @@ const Footer = () => {
                 Quick Links
               </h3>
               <ul className="flex flex-col gap-5 text-[#716b66] text-base font-normal font-secondary">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Product</li>
-                <li>Contact Us</li>
+                <li>
+                  <Link href="/" className="hover:text-secondary transition-colors duration-200">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about" className="hover:text-secondary transition-colors duration-200">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/product" className="hover:text-secondary transition-colors duration-200">
+                    Product
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact" className="hover:text-secondary transition-colors duration-200">
+                    Contact Us
+                  </Link>
+                </li>
               </ul>
             </div>
           </motion.div>
