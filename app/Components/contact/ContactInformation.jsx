@@ -31,7 +31,7 @@ const ContactInformation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <CardContact image={PhoneIcon} title="Phone:" info="(12+) 123 3456" />
+          <CardContact image={PhoneIcon} title="Phone:" info="+971 2 506 7333" />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}

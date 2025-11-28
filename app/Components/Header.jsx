@@ -78,7 +78,7 @@ const Header = () => {
           <div className="leading-5 font-normal ">
             <span>info@microbiano.com</span>
             <span> / </span>
-            <span>+04 89 76 4576</span>
+            <span>+971 2 506 7333</span>
           </div>
           <div className="flex gap-2">
             <SocialIcons icon={<FaFacebookF size={16} />} />
@@ -394,8 +394,8 @@ const Header = () => {
                   variants={mobileLinkVariants}
                   className="mt-8 text-center text-sm text-neutral-dark-gray"
                 >
-                  <p>Sample@gmail.com</p>
-                  <p>+04 89 76 4576</p>
+                  <p>info@microbiano.com</p>
+                  <p>+971 2 506 7333</p>
                 </motion.div>
               </motion.nav>
             </motion.div>
