@@ -87,7 +87,7 @@ const CategoryContent = ({ selectedCategory }) => {
               content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
               items: [
                 <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
-                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="90mm-bi" href="https://microbiano.com/category/prepared-plate-media-90mm-bi" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bi</Link>,
                 <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
                 <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
                 <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
@@ -142,7 +142,7 @@ const CategoryContent = ({ selectedCategory }) => {
               content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
               items: [
                 <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
-                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="90mm-bi" href="https://microbiano.com/category/prepared-plate-media-90mm-bi" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bi</Link>,
                 <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
                 <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
                 <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
@@ -152,18 +152,18 @@ const CategoryContent = ({ selectedCategory }) => {
           ]
         };
       
-      case "Prepared bioplates media 90 MM":
+      case "Prepared biplates media 90 MM":
         return {
-          title: "Prepared Plate Media - 90mm Bio Petri Dishes",
-          description: "Looking for high-performance prepared plate media in 90mm bio Petri dishes? Microbiano offers sterile, ready-to-use 90mm agar plates formulated for diagnostic precision in clinical microbiology, food testing, pharmaceuticals, and academic research.",
+          title: "Prepared Plate Media - 90mm Bi-plates",
+          description: "Looking for high-performance prepared plate media in 90mm biplates? Microbiano offers sterile, ready-to-use 90mm bi-plates formulated for diagnostic precision in clinical microbiology, food testing, pharmaceuticals, and academic research.",
           sections: [
             {
-              title: "What is 90mm Bio Prepared Plate Media?",
-              content: "90mm bio plates typically contain enriched or selective media tailored for isolating fastidious organisms. These plates are ideal for diagnostic applications where sensitivity, sterility, and media performance are critical."
+              title: "What is 90mm Bi-Plate Media?",
+              content: "90mm bi-plates are standard double-compartment plates with two different agar media used to culture and isolate microorganisms. Each compartment comes pre-filled with two specific agar medium and Each compartment remains isolated to permit simultaneous cultivation, comparison, or differentiation of microorganisms using distinct media types, while reducing space, cost, and sample volume requirements."
             },
             {
-              title: "Popular 90mm Bio Agar Plates Available",
-              content: "We manufacture and stock a focused range of bio-prepared agar media plates to meet lab-specific microbial testing requirements.",
+              title: "Popular 90mm Bi-Plates Available",
+              content: "We manufacture and stock a focused range of bi-plates to meet lab-specific microbial testing requirements.",
               subsections: [
                 {
                   title: "Enriched & Diagnostic Media",
@@ -207,9 +207,9 @@ const CategoryContent = ({ selectedCategory }) => {
               footer: "🧪 Trusted by diagnostic labs, pharmaceutical QC teams, and academic research institutions across the UAE and GCC."
             },
             {
-              title: "🛒 Shop 90mm Bio Media Plates Online",
-              content: "Get reliable, high-quality 90mm bio-prepared media plates delivered to your lab. Whether you're identifying pathogens or testing antimicrobial resistance, Microbiano provides dependable media for accurate results.",
-              cta: "👉 Explore 90mm Bio Prepared Plate Media Now!"
+              title: "🛒 Shop 90mm Bi-Plates Online",
+              content: "Get reliable, high-quality 90mm bi-plates delivered to your lab. Whether you're identifying pathogens or testing antimicrobial resistance, Microbiano provides dependable media for accurate results.",
+              cta: "👉 Explore 90mm Bi-Plate Media Now!"
             },
             {
               title: "Need Custom Media or Bulk Orders?",
@@ -221,7 +221,7 @@ const CategoryContent = ({ selectedCategory }) => {
               content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
               items: [
                 <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
-                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="90mm-bi" href="https://microbiano.com/category/prepared-plate-media-90mm-bi" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bi</Link>,
                 <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
                 <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
                 <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
@@ -279,7 +279,7 @@ const CategoryContent = ({ selectedCategory }) => {
               content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
               items: [
                 <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
-                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="90mm-bi" href="https://microbiano.com/category/prepared-plate-media-90mm-bi" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bi</Link>,
                 <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
                 <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
                 <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>
@@ -336,7 +336,7 @@ const CategoryContent = ({ selectedCategory }) => {
               content: "At Microbiano, we offer a comprehensive selection of ready-to-use culture media for all your lab needs. From routine testing to advanced applications, our products ensure reliable results every time:",
               items: [
                 <Link key="90mm-mono" href="https://microbiano.com/category/prepared-plate-media-90mm-mono" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Mono</Link>,
-                <Link key="90mm-bio" href="https://microbiano.com/category/prepared-plate-media-90mm-bio" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bio</Link>,
+                <Link key="90mm-bi" href="https://microbiano.com/category/prepared-plate-media-90mm-bi" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 90mm Bi</Link>,
                 <Link key="150mm" href="https://microbiano.com/category/prepared-plate-media-150mm" className="text-blue-600 hover:text-blue-800 underline">Prepared Plate Media – 150mm</Link>,
                 <Link key="tube" href="https://microbiano.com/category/prepared-tube-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Tube Media</Link>,
                 <Link key="bottle" href="https://microbiano.com/category/prepared-bottle-media" className="text-blue-600 hover:text-blue-800 underline">Prepared Bottle Media</Link>

@@ -1024,7 +1024,7 @@ const productData = [
   {
     id: 103,
     name: "Columbia CNA Blood Agar / MacConkey with Crystal Violet",
-    category: "Prepared bioplates media 90 MM",
+    category: "Prepared biplates media 90 MM",
     productCode: "M0950",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1034,7 +1034,7 @@ const productData = [
   {
     id: 104,
     name: "Sheep Blood Agar / Chocolate Agar",
-    category: "Prepared bioplates media 90 MM",
+    category: "Prepared biplates media 90 MM",
     productCode: "M0955",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1044,7 +1044,7 @@ const productData = [
   {
     id: 105,
     name: "Sheep Blood Agar / CLED Agar",
-    category: "Prepared bioplates media 90 MM",
+    category: "Prepared biplates media 90 MM",
     productCode: "M0960",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1054,7 +1054,7 @@ const productData = [
   {
     id: 106,
     name: "Sheep Blood Agar / MacConkey with Crystal Violet",
-    category: "Prepared bioplates media 90 MM",
+    category: "Prepared biplates media 90 MM",
     productCode: "M0970",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",
@@ -1064,7 +1064,7 @@ const productData = [
   {
     id: 107,
     name: "Sheep Blood Agar / MacConkey without Crystal Violet",
-    category: "Prepared bioplates media 90 MM",
+    category: "Prepared biplates media 90 MM",
     productCode: "M0980",
     packSize: "10 x 90 mm",
     shelfLife: "60 Days",

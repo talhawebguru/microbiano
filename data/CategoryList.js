@@ -13,7 +13,7 @@ const categoryList = [
   },
   {
     id:4,
-    name: "Prepared bioplates media 90 MM",
+    name: "Prepared biplates media 90 MM",
   },
   {
     id:5,

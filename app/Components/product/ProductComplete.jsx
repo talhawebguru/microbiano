@@ -19,7 +19,7 @@ const ProductComplete = () => {
   // Category URL mapping
   const categoryUrlMapping = {
     'Prepared plates media 90 MM': 'prepared-plate-media-90mm-mono',
-    'Prepared bioplates media 90 MM': 'prepared-plate-media-90mm-bio',
+    'Prepared biplates media 90 MM': 'prepared-plate-media-90mm-bi',
     'Prepared plates media 150 MM': 'prepared-plate-media-150mm',
     'Prepared tube media': 'prepared-tube-media',
     'Prepared media in Bottles': 'prepared-bottle-media'

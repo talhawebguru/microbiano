@@ -8,7 +8,7 @@ import productData from '@/data/products'
 // Category mapping
 const categoryMapping = {
   'prepared-plate-media-90mm-mono': 'Prepared plates media 90 MM',
-  'prepared-plate-media-90mm-bio': 'Prepared bioplates media 90 MM',
+  'prepared-plate-media-90mm-bi': 'Prepared biplates media 90 MM',
   'prepared-plate-media-150mm': 'Prepared plates media 150 MM',
   'prepared-tube-media': 'Prepared tube media',
   'prepared-bottle-media': 'Prepared media in Bottles'
@@ -23,12 +23,12 @@ const categoryMetadata = {
     twitterDescription: 'Explore ISO-certified 90mm mono agar plates. Available: Nutrient Agar, Mannitol Salt, Chocolate Agar & more. Ready-to-use microbiology media.',
     schemaName: 'Prepared Plate Media - 90mm Mono'
   },
-  'prepared-plate-media-90mm-bio': {
-    title: 'Buy Prepared Plate Media 90mm Bio | Chocolate, Sheep Blood, CLED Agar – Microbiano',
-    description: 'Order premium 90mm bio-prepared agar plates: Chocolate Agar, Sheep Blood Agar, CLED Agar & more. Sterile, ready-to-use media trusted by clinical and diagnostic labs.',
-    image: 'https://www.microbiano.com/assets/images/products/90mm-bio-media.jpg',
+  'prepared-plate-media-90mm-bi': {
+    title: 'Buy Prepared Plate Media 90mm Bi | Chocolate, Sheep Blood, CLED Agar – Microbiano',
+    description: 'Order premium 90mm bi-prepared agar plates: Chocolate Agar, Sheep Blood Agar, CLED Agar & more. Sterile, ready-to-use media trusted by clinical and diagnostic labs.',
+    image: 'https://www.microbiano.com/assets/images/products/90mm-bi-media.jpg',
     twitterDescription: 'Advanced 90mm biplate media for clinical labs. Blood/Chocolate, Blood/MacConkey combinations. ISO-certified, ready-to-use.',
-    schemaName: 'Prepared Bioplates Media - 90mm'
+    schemaName: 'Prepared Plate Media - 90mm Bi-plates'
   },
   'prepared-plate-media-150mm': {
     title: 'Buy Prepared Plate Media 150mm | Simmons Citrate, MacConkey, Haemophilus Agar – Microbiano',
@@ -309,7 +309,7 @@ export default CategoryPage
 export async function generateStaticParams() {
   return [
     { slug: 'prepared-plate-media-90mm-mono' },
-    { slug: 'prepared-plate-media-90mm-bio' },
+    { slug: 'prepared-plate-media-90mm-bi' },
     { slug: 'prepared-plate-media-150mm' },
     { slug: 'prepared-tube-media' },
     { slug: 'prepared-bottle-media' }
