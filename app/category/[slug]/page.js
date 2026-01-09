@@ -55,7 +55,7 @@ const categoryMetadata = {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const categoryName = categoryMapping[slug];
   const metadata = categoryMetadata[slug];
   
@@ -192,8 +192,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const CategoryPage = ({ params }) => {
-  const { slug } = params;
+const CategoryPage = async ({ params }) => {
+  const { slug } = await params;
   const categoryName = categoryMapping[slug];
   const metadata = categoryMetadata[slug];
   
