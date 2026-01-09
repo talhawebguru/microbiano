@@ -159,7 +159,7 @@ const CategoryContent = ({ selectedCategory }) => {
           sections: [
             {
               title: "What is 90mm Bi-Plate Media?",
-              content: "90mm bi-plates are standard double-compartment plates with two different agar media used to culture and isolate microorganisms. Each compartment comes pre-filled with two specific agar medium and Each compartment remains isolated to permit simultaneous cultivation, comparison, or differentiation of microorganisms using distinct media types, while reducing space, cost, and sample volume requirements."
+              content: "90mm bi-plates are standard double-compartment plates with two different agar media used to culture and isolate microorganisms. Each compartment comes pre-filled with two specific agar medium and each compartment remains isolated to permit simultaneous cultivation, comparison, or differentiation of microorganisms using distinct media types, while reducing space, cost, and sample volume requirements."
             },
             {
               title: "Popular 90mm Bi-Plates Available",

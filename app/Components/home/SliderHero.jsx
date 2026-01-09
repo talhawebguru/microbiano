@@ -60,7 +60,7 @@ const SliderHero = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="xl:w-[700px] lg:w-[640px] sm:w-[89%] md:w-[95%] text-secondary sm:text-5xl xs:text-4xl font-normal font-arial p-2.5"
                       >
-                        Microbiano: Leading Supplier of Prepared Culture Media and Microbiological Testing Products
+                        Microbiano: Leading Manufacturer of Prepared Culture Media and Microbiological Testing Products
                       </motion.h1>
                       <div className="ml-80 ">
                         <Image src={Vector1} alt="Decorative Vector" />

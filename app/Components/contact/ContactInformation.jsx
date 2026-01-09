@@ -52,7 +52,7 @@ const ContactInformation = () => {
           <CardContact
             image={LocationIcon}
             title="Location:"
-            info="Microbioano KHI-8-18 – Abu Dhabi, United Arab Emirates"
+            info="Microbiano KHI-8-18 – Abu Dhabi, United Arab Emirates"
           />
         </motion.div>
       </div>
